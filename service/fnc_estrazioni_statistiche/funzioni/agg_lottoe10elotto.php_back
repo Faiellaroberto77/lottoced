@@ -1,0 +1,26 @@
+<?php
+require_once ('get_estrazioni.php');
+
+$test = new estrazioni_televideo (); // LEGGE I DATI DA TELEVIDEO
+
+if ($test->esito == "ok") {
+	require_once ("esequiq.php");
+	$est = "";
+	
+	for($i = 0; $i <= 10; ++ $i) {
+		$est .= ", '" . $test->ru [$i] . "'";
+	}
+	$est .= ", '" . implode ( $test->dl, "," ) . "'";
+	
+	$query = "INSERT INTO es_lotto (EsData, Bari, Cagliari, Firenze, Genova, Milano, Napoli, Palermo, Roma, Torino, Venezia, Nazionale, diecieLotto) VALUES ('$test->dt' $est)";
+	
+	if (EseguiQuery ( $query ) == TRUE) {
+		echo ("Invio SMS lotto \n");
+		require_once 'sms_lotto.php';
+	} else {
+		echo ("10 e lotto Query NON INSERITA" . $test->esito . "\n");
+	}
+}
+
+// echo $outable->estrazione[0]->ruotaExtended . ' - ' . $outable->estrazione[0]->numeri[0];
+?>

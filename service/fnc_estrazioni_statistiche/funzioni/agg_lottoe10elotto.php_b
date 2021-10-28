@@ -1,0 +1,114 @@
+<?php
+//require_once ("esequiq.php");
+
+
+$a = get_lotto();
+// INSERT INTO `lottoced`.`es_millionday` (`id`, `estratti`, `esdata`) VALUES ('20180207', '7,16,43,44,51', '07/02/2018');
+if ($a->esito == "OK") {
+    require_once ("esequiq.php");
+    $est = "";
+    $tmp = array();
+    foreach ($a->estrazione as $estrazione){
+        $joinEstrazione = implode($estrazione->numeri, ',') . ','; 
+        $est .= ", '" . $joinEstrazione . "'";
+        $tmp[] = $joinEstrazione;
+    }
+    $todaym = date("Y-m-d");
+    $est .= ", '" . implode(estrazioni10elotto($tmp), ",") . "'";
+    
+    $query = "INSERT INTO es_lotto (EsData, Bari, Cagliari, Firenze, Genova, Milano, Napoli, Palermo, Roma, Torino, Venezia, Nazionale, diecieLotto) VALUES ('$todaym' $est)";
+    
+    if (EseguiQuery ( $query ) == TRUE) {
+        echo ("Invio SMS lotto \n");
+        require_once 'sms_lotto.php';
+    } else {
+        echo ("10 e lotto Query NON INSERITA" . $a->esito . "\n");
+    }
+} else {
+    echo "Estrazione Lotto non ancora disponibile";
+}
+
+function get_lotto() {
+    // 	$year = date ( "Y" );
+    // 	$mount = date ( "m" );
+    
+    //$data = array("anno" => "$year", "mese" => "$mount");
+    $todaym = date("Ymd");
+    //$todaym = '20180405';
+    $data_string = '{"data":"'. $todaym .'"}'; // json_encode($data);
+    
+    $ch = curl_init('https://www.lottomaticaitalia.it/gdl/estrazioni-e-vincite/estrazioni-del-lotto.json');
+    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $data_string);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt ( $ch, CURLOPT_SSL_VERIFYPEER, 0);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+        'Content-Type: application/json')
+        );
+    
+    $data = curl_exec($ch);
+    //echo "<br/>output" . $data;
+    // echo $data;
+    if (curl_errno ( $ch )) {
+        print "Error: " . curl_error ( $ch );
+    } else {
+        // Show me the result
+        // var_dump($data);
+        $jsond = json_decode ( $data );
+        curl_close ( $ch );
+        // var_dump($jsond);
+    }
+    return  $jsond; //$jsond->giorniRaccolte [0]->progressivoGiornaliero;
+}
+function estrazioni10elotto($inEstrazioneLotto) {
+    $alln = array ();
+    
+    for($i = 0; $i <= 9; ++ $i) {
+        $alln [] = explode ( ",", $inEstrazioneLotto[$i] );
+    }
+    
+    $EsNumeri = array (
+        ""
+    );
+    
+    for($c = 0; $c <= 4; ++ $c) {
+        for($r = 0; $r <= 9; ++ $r) {
+            $EsNumeri [] = $alln [$r] [$c];
+        }
+    }
+    
+    $terza = 21;
+    $numeri = array (
+        ""
+    );
+    
+    for($i = 1; $i <= 20; ++ $i) {
+        $numeropreso = $EsNumeri [$i];
+        $conferma = FALSE;
+        while ( $conferma == FALSE ) {
+            $chiave = in_array ( $numeropreso, $numeri );
+            
+            if ($chiave) {
+                $numeropreso = $EsNumeri [$terza];
+                $terza = $terza + 1;
+            } else {
+                
+                $numeri [] = num2cifre($numeropreso);
+                $conferma = TRUE;
+            }
+        }
+    }
+    
+    sort ( $numeri, SORT_NUMERIC );
+    $numeri [] = num2cifre($alln [0] [0]);
+    $numeri [] = num2cifre($alln [0] [1]);
+    
+    return $numeri;
+}
+function num2cifre($n){
+    $n = intval($n);
+    if ($n < 10 ){
+        $n = '0' . $n;
+    }
+    return $n;
+}
