@@ -1,4 +1,4 @@
-<?php
+><?php
 require_once ("funzioni/global.php");
 
 if (isset ( $_GET ['numero'] )) {
@@ -18,8 +18,6 @@ if (isset ( $_GET ['onlyestrazioni'] )) {
 } else {
     $solo_estrazioni = 1;
 }
-
-
 
 $data = new MysqlClass ();
 $data->connetti ();
