@@ -22,12 +22,12 @@ if (isset ( $_GET ['onlyestrazioni'] )) {
 if (isset ( $_GET ['group'] )) {
 	$group = $_GET ['group'];
 } else {
-	$group = 20;
+	$group = 5;
 }
 
 $data = new MysqlClass ();
 $data->connetti ();
-$estrazione = $data->query ( "SELECT EsData, diecielotto FROM es_lotto order by esdata desc limit $numero_estrazione;" );
+$estrazione = $data->query ( "SELECT EsData, diecielotto, extra FROM es_lotto order by esdata desc limit $numero_estrazione;" );
 if (@mysqli_num_rows ( $estrazione ) > 0) {
 	if ($solo_tab == 1) {
 		echo '<ul class="nav nav-tabs" role="tablist">';
@@ -52,14 +52,16 @@ if (@mysqli_num_rows ( $estrazione ) > 0) {
 	}
 }
 $conta = 0;
-if ($solo_estrazioni == 1) {
+if ($solo_estrazioni == 1) { 
 	echo '<div class="tab-content">';
-	$estrazione = $data->query ( "SELECT EsData, diecielotto FROM es_lotto order by esdata desc limit $numero_estrazione;" );
+	$estrazione = $data->query ( "SELECT EsData, diecielotto, extra FROM es_lotto order by esdata desc limit $numero_estrazione;" );
 	while ( $rows = $data->estrai ( $estrazione ) ) {
 		$conta = $conta + 1;
 		$es_data = $rows->EsData;
 		$estrazi = $rows->diecielotto;
+		$extra = $rows->extra;
 		$arrE = explode ( ",", $estrazi );
+		$arrExtra = explode (",", $extra);
 		
 		$originalDate = $es_data;
 		setlocale ( LC_TIME, 'it_IT' );
@@ -85,14 +87,6 @@ if ($solo_estrazioni == 1) {
 			}
 			echo "</tr>";
 		}
-		
-		// echo "<tr>";
-		// for($i = 11; $i <= 20; $i ++) {
-		// $arrE [$i] = check_numero ( $arrE [$i] );
-		// echo "<td>$arrE[$i]</td>";
-		// }
-		// echo '</tr>';
-		
 		echo '<tr>';
 		$cold = intval($group) /2;
 		
@@ -101,6 +95,24 @@ if ($solo_estrazioni == 1) {
 		$arrE [22] = check_numero ( $arrE [22] );
 		echo "<td colspan=\"$cold\" class=\"middle oro\">doppio oro: $arrE[22]</td>";
 		echo '</tr>';
+
+		$conta=1;
+		$cold = intval($group) / 2;
+		echo "<tr><td colspan=\"$group\" class=\"middle oro\">10eLotto EXTRA</td></tr>";
+		echo "<tr>";
+		foreach ($arrExtra as $numb) {
+			$conta +=1;
+			$numb = check_numero ( $numb );
+			echo "<td>$numb</td>";
+			if ($conta > $group){
+				$conta=1;
+				echo "</tr><tr>";
+			}
+			
+		}
+		echo '</tr>';
+
+
 		echo '</table>';
 		echo '</div>'; // row
 		echo '</div>'; // tabpanel
