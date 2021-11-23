@@ -32,6 +32,10 @@ function ele_disable_page_title($return)
 add_filter('hello_elementor_page_title', 'ele_disable_page_title');
 
 // Inserisce titolo e descrizione nella pagina.
+/**
+ * @return string 
+ * @throws Exception 
+ */
 function seo_head()
 {
 	$id = get_the_ID();
