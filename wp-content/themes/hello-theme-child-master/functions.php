@@ -44,8 +44,8 @@ function seo_head()
 	$metadesc_val = apply_filters('wpseo_metadesc', $metadesc_val);
 	$metatitle_val = str_replace("| LottoCED", "", $metatitle_val);
 	return '
-			<h1 class="card-title">'. $metatitle_val .'</h1>
-			<p class="card-text">'. $metadesc_val .'</p>';
+			<h1>'. $metatitle_val .'</h1>
+			<p>'. $metadesc_val .'</p>';
 }
 add_shortcode("seo_head","seo_head" );
 ?>
