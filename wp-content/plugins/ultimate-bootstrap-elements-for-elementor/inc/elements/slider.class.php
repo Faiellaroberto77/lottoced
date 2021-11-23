@@ -32,7 +32,7 @@ class UBE_Element_Slider extends UBE_Abstracts_Elements_Grid {
 	}
 
 	public function get_ube_keywords() {
-		return array( 'slider', 'ube' , 'ube slider' );
+		return array( 'slider', 'ube', 'ube slider' );
 	}
 
 	protected function add_repeater_controls( \Elementor\Repeater $repeater ) {
@@ -159,9 +159,9 @@ class UBE_Element_Slider extends UBE_Abstracts_Elements_Grid {
 	}
 
 	protected function print_grid_item() {
-		$settings           = $this->get_settings_for_display();
-		$item               = $this->get_current_item();
-		$slider_setting_key = $this->get_repeater_setting_key( 'slider_item', 'slider_items', $item['_id'] );
+		$settings                   = $this->get_settings_for_display();
+		$item                       = $this->get_current_item();
+		$slider_setting_key         = $this->get_repeater_setting_key( 'slider_item', 'slider_items', $item['_id'] );
 		$slider_setting_key_content = $this->get_repeater_setting_key( 'slider_item_content', 'slider_items', $item['_id'] );
 		ube_get_template( 'elements/slider.php', array(
 			'element'                     => $this,
@@ -171,7 +171,8 @@ class UBE_Element_Slider extends UBE_Abstracts_Elements_Grid {
 			'slider_background_image'     => $item['slider_background_image'],
 			'slider_background_color'     => $item['slider_background_color'],
 			'slider_dots_type'            => $settings['slider_dots_type'],
-			'slider_setting_key_content'=>$slider_setting_key_content
+			'slider_setting_key_content'  => $slider_setting_key_content,
+			'slider_content_layout'       => $settings['slider_content_layout']
 		) );
 
 	}
@@ -334,6 +335,19 @@ class UBE_Element_Slider extends UBE_Abstracts_Elements_Grid {
 				],
 				'selectors'  => [
 					'{{WRAPPER}} .ube-slider .ube-slider-box' => 'height: {{SIZE}}{{UNIT}};',
+				],
+			]
+		);
+		$this->add_responsive_control(
+			'slider_content_layout',
+			[
+				'label'       => esc_html__( 'Content Layout', 'ube' ),
+				'type'        => Controls_Manager::SELECT,
+				'default'     => 'basic',
+				'label_block' => false,
+				'options'     => [
+					'container' => esc_html__( 'Container', 'ube' ),
+					'full'      => esc_html__( 'Full width', 'ube' ),
 				],
 			]
 		);

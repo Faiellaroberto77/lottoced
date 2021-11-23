@@ -66,13 +66,13 @@ $element->add_render_attribute( "image_link{$item_key}", 'class', 'card-img' );
 					printf( '<%1$s class="ube-ib-title mb-0"><%2$s %3$s>%4$s</%2$s></%1$s>',$title_tag, $image_tag, $element->get_render_attribute_string( "title{$item_key}" ),$title );
 				} ?>
 				<?php if (!empty($description) && ($description_pos === 'inset')): ?>
-					<p class="ube-ib-desc mb-0"><?php echo wp_kses_post($description)?></p>
+					<div class="ube-ib-desc mb-0"><?php echo wp_kses_post($description)?></div>
 				<?php endif; ?>
 			</div>
 		<?php endif; ?>
 	</div>
 	<?php if (!empty($description) && ($description_pos === 'outset')): ?>
-		<p class="ube-ib-desc mb-0"><?php echo wp_kses_post($description)?></p>
+		<div class="ube-ib-desc mb-0"><?php echo wp_kses_post($description)?></div>
 	<?php endif; ?>
 </div>
 

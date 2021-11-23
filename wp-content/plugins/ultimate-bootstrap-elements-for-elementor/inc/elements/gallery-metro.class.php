@@ -113,7 +113,7 @@ class UBE_Element_Gallery_Metro extends UBE_Abstracts_Elements {
 			[
 				'label'           => esc_html__( 'Column', 'ube' ),
 				'type'            => \Elementor\Controls_Manager::NUMBER,
-				'desktop_default' => '3',
+				'default' => '3',
 				'min'             => 1,
 				'max'             => 30,
 				'step'            => 1,
@@ -128,7 +128,7 @@ class UBE_Element_Gallery_Metro extends UBE_Abstracts_Elements {
 			[
 				'label'           => __( 'Number Row', 'ube' ),
 				'type'            => \Elementor\Controls_Manager::SELECT,
-				'desktop_default' => '1',
+				'default' => '1',
 				'tablet_default'  => '1',
 				'mobile_default'  => '1',
 				'options'         => [
@@ -152,7 +152,7 @@ class UBE_Element_Gallery_Metro extends UBE_Abstracts_Elements {
 			[
 				'label'           => __( 'Number Column', 'ube' ),
 				'type'            => \Elementor\Controls_Manager::SELECT,
-				'desktop_default' => '1',
+				'default' => '1',
 				'tablet_default'  => '1',
 				'mobile_default'  => '1',
 				'options'         => [

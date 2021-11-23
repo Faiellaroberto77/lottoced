@@ -110,17 +110,16 @@
 	.ube-countdown .ube-countdown-item {
 		margin-bottom: 0 !important;
 	}
-
 }
 
 @media screen and (max-width: 576px) {
-	.ube-countdown {
+	.ube-countdown.ube-countdown-background {
 		@include flex-wrap();
 	}
-	.ube-countdown-separate {
+	.ube-countdown-background .ube-countdown-separate {
 		display: none;
 	}
-	.ube-countdown .ube-countdown-item {
+	.ube-countdown.ube-countdown-background .ube-countdown-item {
 		@include flex(0 0 50%);
 		max-width: 50%;
 		margin-bottom: 15px;

@@ -226,11 +226,11 @@ class UBE_Element_Post_Masonry extends UBE_Abstracts_Elements {
 			[
 				'label'           => esc_html__( 'Column', 'ube' ),
 				'type'            => \Elementor\Controls_Manager::SELECT,
-				'desktop_default' => '3',
+				'default' => '3',
 				'tablet_default'  => '2',
 				'mobile_default'  => '1',
 				'options'         => [
-					''   => esc_html__( 'Default', 'ube' ),
+					''   => esc_html__( 'Auto', 'ube' ),
 					'1'  => esc_html__( '1', 'ube' ),
 					'2'  => esc_html__( '2', 'ube' ),
 					'3'  => esc_html__( '3', 'ube' ),

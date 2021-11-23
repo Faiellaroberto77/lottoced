@@ -77,7 +77,7 @@ if (!defined('ABSPATH')) {
 		</div>
 		<div class="ube-admin-col ube-admin-col-6 ube-admin-d-flex">
 			<div class="ube-admin-box">
-				<div class="ube-admin-box-theme">
+				<div class="ube-admin-box-content">
 					<div class="ube-admin-box-theme">
 						<a target="_blank" href="https://themeforest.net/item/homeid-real-estate-wordpress-theme/30203159?utm_source=wp&utm_medium=ube_welcome&utm_content=click_logo">
 							<img src="<?php echo esc_url(ube_get_plugin_url('assets/images/homeid-logo.png')) ?>" alt="<?php echo esc_attr__('Furnitor – Minimalism Furniture Store WordPress Theme', 'ube') ?>">
@@ -98,7 +98,7 @@ if (!defined('ABSPATH')) {
 		</div>
 		<div class="ube-admin-col ube-admin-col-6 ube-admin-d-flex">
 			<div class="ube-admin-box">
-				<div class="ube-admin-box-theme">
+				<div class="ube-admin-box-content">
 					<div class="ube-admin-box-theme">
 						<a target="_blank" href="https://themeforest.net/item/dukaken-multipurpose-woocommerce-wordpress-theme/25727237?utm_source=wp&utm_medium=ube_welcome&utm_content=click_logo">
 							<img src="<?php echo esc_url(ube_get_plugin_url('assets/images/dukaken-logo.png')) ?>" alt="<?php echo esc_attr__('Dukaken – Multipurpose WooCommerce WordPress Theme', 'ube') ?>">
@@ -120,7 +120,7 @@ if (!defined('ABSPATH')) {
 
 		<div class="ube-admin-col ube-admin-col-6 ube-admin-d-flex">
 			<div class="ube-admin-box">
-				<div class="ube-admin-box-theme">
+				<div class="ube-admin-box-content">
 					<div class="ube-admin-box-theme">
 						<a target="_blank" href="https://www.templatemonster.com/wordpress-themes/cupid-adorable-kindergarten-wordpress-theme-202296.html?utm_source=wp&utm_medium=ube_welcome&utm_content=click_logo">
 							<img src="<?php echo esc_url(ube_get_plugin_url('assets/images/cupid-logo.png')) ?>" alt="<?php echo esc_attr__('CUPID - Adorable Kindergarten WordPress Theme', 'ube') ?>">

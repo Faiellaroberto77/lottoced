@@ -168,6 +168,10 @@ class UBE_Assets {
 			'jquery',
 			'mapbox-gl',
 		), '', true );
+		wp_register_script( 'ube-widget-bullet-one-page-scroll-navigation', ube_get_asset_url( 'assets/js/elements/bullet-one-page-scroll-navigation.min.js' ), array(
+			'jquery',
+		), '', true );
+
 
 		/**
 		 * Plugin assets
@@ -225,6 +229,8 @@ class UBE_Assets {
 		wp_enqueue_style( 'ube-editor', ube_get_asset_url( 'assets/css/editor.min.css' ), array(), ube_get_plugin_version() );
 		wp_enqueue_script( 'ube-color', ube_get_asset_url( 'assets/js/color.min.js' ), array( 'jquery' ), ube_get_plugin_version(), true );
 		wp_enqueue_script( 'ube-editor', ube_get_asset_url( 'assets/js/editor.min.js' ), array( 'jquery' ), ube_get_plugin_version(), true );
+		wp_enqueue_style( 'font-awesome', ube_get_asset_url( 'assets/vendors/font-awesome/css/fontawesome.min.css' ), array(), '5.8.2' );
+
 
 		$ajax_url       = admin_url( 'admin-ajax.php' );
 

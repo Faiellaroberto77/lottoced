@@ -11,6 +11,7 @@ use Elementor\Plugin;
  * @var $slider_setting_key
  * @var $slider_dots_type
  * @var $slider_setting_key_content
+ * @var $slider_content_layout
  *
  *
  */
@@ -44,12 +45,23 @@ $element->add_render_attribute( $slider_setting_key, 'class', $box_classes );
         <div class="ube-slide-bg">
         </div>
     </div>
-    <div <?php echo $element->get_render_attribute_string( $slider_setting_key_content ) ?>>
+	<?php
+	if ( $slider_content_layout == 'container' ): ?>
+    <div class="container">
 		<?php
-		if ( ! empty( $slider_content_template ) ) {
-			echo Plugin::$instance->frontend->get_builder_content( $slider_content_template, true );
-		}
+		endif;
 		?>
+        <div <?php echo $element->get_render_attribute_string( $slider_setting_key_content ) ?>>
+			<?php
+			if ( ! empty( $slider_content_template ) ) {
+				echo Plugin::$instance->frontend->get_builder_content( $slider_content_template, true );
+			}
+			?>
+        </div>
+		<?php
+		if ( $slider_content_layout == 'container' ): ?>
     </div>
+<?php
+endif; ?>
 </div>
 

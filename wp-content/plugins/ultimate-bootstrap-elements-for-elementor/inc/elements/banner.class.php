@@ -731,8 +731,8 @@ class UBE_Element_Banner extends UBE_Abstracts_Elements
 				],
 			],
 			'selectors' => [
-				'{{WRAPPER}} .ube-banner-btn.icon-before > i' => 'margin-right : {{SIZE}}{{UNIT}}',
-				'{{WRAPPER}} .ube-banner-btn.icon-after > i' => 'margin-left : {{SIZE}}{{UNIT}}'
+				'{{WRAPPER}} .ube-banner-btn.icon-before > i,{{WRAPPER}} .ube-banner-btn.icon-before > svg' => 'margin-right : {{SIZE}}{{UNIT}}',
+				'{{WRAPPER}} .ube-banner-btn.icon-after > i , {{WRAPPER}} .ube-banner-btn.icon-after > svg' => 'margin-left : {{SIZE}}{{UNIT}}'
 			],
 			'condition' => [
 				'banner_button_icon[value]!' => '',

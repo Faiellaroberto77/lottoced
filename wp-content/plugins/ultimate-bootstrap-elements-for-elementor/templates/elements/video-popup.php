@@ -65,6 +65,7 @@ if ($settings['video_button_type'] === '' || $settings['video_button_type'] === 
 
 if ($settings['video_button_type'] === 'outline') {
 	$btn_class[] = "btn-outline-{$settings['video_button_scheme']}";
+	$btn_class[] = "btn-{$settings['video_button_scheme']}";
 }
 
 if ($settings['video_button_type'] !== '') {

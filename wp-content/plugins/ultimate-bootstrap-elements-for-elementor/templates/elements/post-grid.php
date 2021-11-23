@@ -41,30 +41,37 @@ $class = $button_classes;
 
 $column_classes   = array();
 $column_classes[] = 'ube-post-grid-item';
-if ( $settings['number_column_mobile'] != '' && $settings['number_column_mobile'] != '5' ) {
-	$grid_mb          = 12 / intval( $settings['number_column_mobile'] );
-	$column_classes[] = 'col-' . $grid_mb;
-} elseif ( $settings['number_column_mobile'] == '' ) {
-	$column_classes[] = 'col';
-} elseif ( $settings['number_column_mobile'] == '5' ) {
-	$column_classes[] = 'ube-col-custom-5';
+
+if ( ! empty( $settings['number_column_mobile'] ) ) {
+	if ( $settings['number_column_mobile'] != '5' ) {
+		$grid_mb          = 12 / intval( $settings['number_column_mobile'] );
+		$column_classes[] = 'col-' . $grid_mb;
+	} elseif ( $settings['number_column_mobile'] == '5' ) {
+		$column_classes[] = 'ube-col-custom-5';
+	}
+}else{
+	$column_classes[]='col-auto';
 }
-if ( $settings['number_column_tablet'] != '5' && $settings['number_column_tablet'] != '' ) {
-	$grid_tb          = 12 / intval( $settings['number_column_tablet'] );
-	$column_classes[] = 'col-md-' . $grid_tb;
-} elseif ( $settings['number_column_tablet'] == '' ) {
-	$column_classes[] = 'col-md';
-} elseif ( $settings['number_column_tablet'] == '5' ) {
-	$column_classes[] = 'ube-col-md-custom-5';
+if ( ! empty( $settings['number_column_tablet'] ) ) {
+	if ( $settings['number_column_tablet'] != '5' ) {
+		$grid_tb          = 12 / intval( $settings['number_column_tablet'] );
+		$column_classes[] = 'col-md-' . $grid_tb;
+	} elseif ( $settings['number_column_tablet'] == '5' ) {
+		$column_classes[] = 'ube-col-md-custom-5';
+	}
+}else{
+	$column_classes[]='col-md-auto';
 }
 
-if ( $settings['number_column'] != '5' && $settings['number_column'] != '' ) {
-	$grid             = 12 / intval( $settings['number_column'] );
-	$column_classes[] = 'col-lg-' . $grid;
-} elseif ( $settings['number_column'] == '' ) {
-	$column_classes[] = 'col-lg';
-} elseif ( $settings['number_column'] == '5' ) {
-	$column_classes[] = 'ube-col-lg-custom-5';
+if ( ! empty( $settings['number_column'] ) ) {
+	if ( $settings['number_column'] != '5' ) {
+		$grid             = 12 / intval( $settings['number_column'] );
+		$column_classes[] = 'col-lg-' . $grid;
+	} elseif ( $settings['number_column'] == '5' ) {
+		$column_classes[] = 'ube-col-lg-custom-5';
+	}
+}else{
+	$column_classes[]='col-lg-auto';
 }
 $btn_class = array(
 	'btn',

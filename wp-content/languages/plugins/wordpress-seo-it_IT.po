@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Yoast SEO - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-08 10:07:50+0000\n"
+"PO-Revision-Date: 2021-11-01 10:40:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -85,14 +85,14 @@ msgstr "Sostituito dall'anno in cui l'articolo è stato pubblicato"
 
 #. Translators: %s expands to the social medium name, which is either Twitter
 #. or Facebook. %s expands to Yoast SEO Premium
-#: languages/wordpress-seojs.php:509 js/dist/block-editor-1740.js:11
-#: js/dist/classic-editor-1740.js:11 js/dist/elementor-1740.js:11
+#: languages/wordpress-seojs.php:509 js/dist/block-editor-1750.js:11
+#: js/dist/classic-editor-1750.js:11 js/dist/elementor-1750.js:11
 msgid "Want to see how your content will look when it’s shared on %s?"
 msgstr "Ti piacerebbe vedere come appare il tuo contenuto quando viene condiviso su %s?"
 
 #. Translators: %s expands to Yoast SEO Premium
-#: languages/wordpress-seojs.php:513 js/dist/block-editor-1740.js:13
-#: js/dist/classic-editor-1740.js:13 js/dist/elementor-1740.js:13
+#: languages/wordpress-seojs.php:513 js/dist/block-editor-1750.js:13
+#: js/dist/classic-editor-1750.js:13 js/dist/elementor-1750.js:13
 msgid "Get %s to unlock social previews!"
 msgstr "Attiva %s per sbloccare l'anteprima social!"
 
@@ -114,6 +114,12 @@ msgid_plural "%3$sImage alt tags%5$s: %1$d images out of %2$d don't have alt att
 msgstr[0] "%3$sAlt tag delle immagini%5$s: %1$d immagine su %2$d non contiene attributi alt. %4$sAggiungi gli attributi alt alle tue immagini%5$s!"
 msgstr[1] "%3$sAlt tag delle immagini%5$s: %1$d immagini su %2$d non contengono attributi alt. %4$sAggiungi gli attributi alt alle tue immagini%5$s!"
 
+#: languages/yoast-seo-js.php:251
+msgid "%3$sKeyphrase length%5$s: The keyphrase is %1$d word long. That's shorter than the recommended minimum of %2$d words. %4$sMake it longer%5$s!"
+msgid_plural "%3$sKeyphrase length%5$s: The keyphrase is %1$d words long. That's shorter than the recommended minimum of %2$d words. %4$sMake it longer%5$s!"
+msgstr[0] "%3$sLunghezza della frase chiave%5$s: la frase chiave è composta da %1$d sola parola ed è un po' più breve della lunghezza minima raccomandata di %2$d parole. %4$sTi suggeriamo di allungarla%5$s."
+msgstr[1] "%3$sLunghezza della frase chiave%5$s: La frase chiave è composta da %1$d parole ed è un po' più breve della lunghezza minima raccomandata di %2$d parole. %4$sAllungala%5$s!"
+
 #: languages/yoast-seo-js.php:161
 msgid "%1$sImage alt tags%3$s: None of the images has alt attributes. %2$sAdd alt attributes to your images%3$s!"
 msgstr "%1$sAlt tag delle immagini%3$s: Nessuna delle tue immagini contiene attributi alt. %2$sAggiungi gli attributi alt alle tue immagini%3$s!"
@@ -124,12 +130,6 @@ msgstr "%1$sAlt tag delle immagini%3$s: Nessuna delle tue immagini contiene attr
 #: admin/class-suggested-plugins.php:149
 msgid "It looks like you've installed our %1$s%2$s addon%3$s. %4$sActivate it now%5$s to unlock more tools and SEO features to make your products stand out in search results."
 msgstr "Sembra che tu abbia installato il nostro %1$sadd-on %2$s%3$s. %4$sAttivalo ora%5$s per sbloccare nuovi strumenti e funzionalità SEO  che faranno risaltare i tuoi prodotti nei risultati di ricerca."
-
-#: languages/yoast-seo-js.php:251
-msgid "%3$sKeyphrase length%5$s: The keyphrase is %1$d word long. That's shorter than the recommended minimum of %2$d words. %4$sMake it longer%5$s!"
-msgid_plural "%3$sKeyphrase length%5$s: The keyphrase is %1$d words long. That's shorter than the recommended minimum of %2$d words. %4$sMake it longer%5$s!"
-msgstr[0] "%3$sLunghezza della frase chiave%5$s: la frase chiave è composta da %1$d sola parola ed è un po' più breve della lunghezza minima raccomandata di %2$d parole. %4$sTi suggeriamo di allungarla%5$s."
-msgstr[1] "%3$sLunghezza della frase chiave%5$s: La frase chiave è composta da %1$d parole ed è un po' più breve della lunghezza minima raccomandata di %2$d parole. %4$sAllungala%5$s!"
 
 #. translators: %1$s expands to an opening strong tag, %2$s expands to the
 #. dependency name, %3$s expands to a closing strong tag, %4$s expands to an
@@ -184,31 +184,31 @@ msgstr "%1$sListe%3$s: Non ci sono liste in questa pagina. %2$sAggiungi almeno u
 msgid "%1$sLists%2$s: There is at least one list on this page. Great!"
 msgstr "%1$sListe%2$s: C'è almeno una lista in questa pagina. Ottimo!"
 
-#: languages/wordpress-seojs.php:158 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:158 js/dist/indexation-1750.js:1
 msgid "Error stack trace"
 msgstr "Traccia dello stack di errore"
 
-#: languages/wordpress-seojs.php:155 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:155 js/dist/indexation-1750.js:1
 msgid "Response"
 msgstr "Risposta"
 
-#: languages/wordpress-seojs.php:152 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:152 js/dist/indexation-1750.js:1
 msgid "Error message"
 msgstr "Messaggio di errore"
 
-#: languages/wordpress-seojs.php:149 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:149 js/dist/indexation-1750.js:1
 msgid "Status code"
 msgstr "Codice di stato"
 
-#: languages/wordpress-seojs.php:146 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:146 js/dist/indexation-1750.js:1
 msgid "Request method"
 msgstr "Metodo di richiesta"
 
-#: languages/wordpress-seojs.php:143 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:143 js/dist/indexation-1750.js:1
 msgid "Request URL"
 msgstr "URL della richiesta"
 
-#: languages/wordpress-seojs.php:140 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:140 js/dist/indexation-1750.js:1
 msgid "Error details"
 msgstr "Dettagli dell'errore"
 
@@ -386,8 +386,8 @@ msgstr "Scopri come gli Approfondimenti (Insights) ti aiutano a migliorare il tu
 msgid "Insights"
 msgstr "Approfondimenti (Insights)"
 
-#: languages/wordpress-seojs.php:233 js/dist/block-editor-1740.js:63
-#: js/dist/classic-editor-1740.js:63 js/dist/elementor-1740.js:63
+#: languages/wordpress-seojs.php:233 js/dist/block-editor-1750.js:63
+#: js/dist/classic-editor-1750.js:63 js/dist/elementor-1750.js:63
 msgid "Read more about Schema."
 msgstr "Scopri di più su Schema."
 
@@ -429,7 +429,7 @@ msgstr "Immagine predefinita"
 msgid "The social homepage settings have been moved to the %1$s‘Search appearance’ settings under the ‘General’ tab%2$s."
 msgstr "Le impostazioni della homepage social sono state spostate nelle impostazioni dell' %1$s‘Aspetto della ricerca’ nella scheda ‘Generale’%2$s."
 
-#: languages/wordpress-seojs.php:604 js/dist/settings-1740.js:6
+#: languages/wordpress-seojs.php:604 js/dist/settings-1750.js:6
 msgid "Social image"
 msgstr "Immagine social"
 
@@ -470,7 +470,7 @@ msgid "Enter a recipe description"
 msgstr "Inserisci una descrizione per la ricetta "
 
 #: src/schema-templates/cooking-time.block.php:14
-#: js/dist/externals/schemaBlocks-1740.js:13
+#: js/dist/externals/schemaBlocks-1750.js:13
 msgid "Cooking time"
 msgstr "Tempo di cottura"
 
@@ -492,21 +492,21 @@ msgstr "Questi sono il titolo, la descrizione e l'immagine che verranno utilizza
 msgid "Rewrite titles"
 msgstr "Riscrivere i titoli"
 
-#: languages/wordpress-seojs.php:32 js/dist/addon-installation-1740.js:5
+#: languages/wordpress-seojs.php:32 js/dist/addon-installation-1750.js:5
 msgid "Install and activate"
 msgstr "Installa e attiva"
 
 #. translators: %s expands to Yoast
-#: languages/wordpress-seojs.php:36 js/dist/addon-installation-1740.js:3
+#: languages/wordpress-seojs.php:36 js/dist/addon-installation-1750.js:3
 msgid "%s SEO installation"
 msgstr "Installazione di %s SEO "
 
 #. translators: %s expands to Yoast SEO Premium
-#: languages/wordpress-seojs.php:26 js/dist/addon-installation-1740.js:5
+#: languages/wordpress-seojs.php:26 js/dist/addon-installation-1750.js:5
 msgid "Please confirm below that you would like to install %s on this site."
 msgstr "Conferma di voler installare %s su questo sito."
 
-#: languages/wordpress-seojs.php:39 js/dist/addon-installation-1740.js:3
+#: languages/wordpress-seojs.php:39 js/dist/addon-installation-1750.js:3
 msgid "the following addons"
 msgstr "i seguenti add-on"
 
@@ -554,37 +554,37 @@ msgid "No %1$s plugins have been installed. You don't seem to own any active sub
 msgstr "Nessun %1$s plugin è stato installato. Pare che tu non abbia nessun abbonamento attivo."
 
 #: languages/yoast-components.php:218
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Availability"
 msgstr "Disponibilità"
 
 #: languages/yoast-components.php:215
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Price"
 msgstr "Prezzo"
 
 #. Translators: %s expands to the actual rating, e.g. 8/10.
 #: languages/yoast-components.php:212
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Rating"
 msgstr "Valutazione"
 
 #: languages/yoast-components.php:209
-#: js/dist/externals/searchMetadataPreviews-1740.js:1
+#: js/dist/externals/searchMetadataPreviews-1750.js:1
 msgid "%s reviews"
 msgstr "%s recensioni"
 
 #: languages/yoast-components.php:205
-#: js/dist/externals/searchMetadataPreviews-1740.js:1
+#: js/dist/externals/searchMetadataPreviews-1750.js:1
 msgid "Rating: %s"
 msgstr "Valutazione: %s"
 
-#: languages/wordpress-seojs.php:607 js/dist/settings-1740.js:6
+#: languages/wordpress-seojs.php:607 js/dist/settings-1750.js:6
 msgid "Image"
 msgstr "Immagine"
 
 #: languages/yoast-components.php:227
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Shopping data preview:"
 msgstr "Anteprima dei dati di acquisto"
 
@@ -620,6 +620,12 @@ msgstr "Abbiamo notato che hai abilitato gli aggiornamenti automatici per WordPr
 msgid "Required by %s"
 msgstr "È necessario affinché %s funzioni correttamente"
 
+#. Translators: %1$s expands to 'Yoast SEO', %2$s to an opening anchor tag for
+#. a link leading to the Plugins page, and %3$s to a closing anchor tag.
+#: src/presenters/admin/auto-update-notification-presenter.php:44
+msgid "We see that you enabled automatic updates for WordPress. We recommend that you do this for %1$s as well. This way we can guarantee that WordPress and %1$s will continue to run smoothly together. %2$sGo to your plugins overview to enable auto-updates for %1$s.%3$s"
+msgstr "Abbiamo notato che hai abilitato gli aggiornamenti automatici per WordPress. Ti suggeriamo di attivarli anche per %1$s. In questo modo possiamo garantire che WordPress e %1$s continuino a funzionare assieme correttamente. %2$sVai nel menu plugin per abilitare gli aggiornamenti automatici per %1$s.%3$s"
+
 #. Translators: %1$s resolves to Yoast SEO.
 #: src/integrations/watchers/addon-update-watcher.php:82
 msgid "Auto-updates are enabled based on this setting for %1$s."
@@ -630,20 +636,14 @@ msgstr "Gli aggiornamenti automatici sono abilitati in base alle impostazioni ch
 msgid "Auto-updates are disabled based on this setting for %1$s."
 msgstr "Gli aggiornamenti automatici sono disabilitati in base alle impostazioni che hai definito per %1$s."
 
-#. Translators: %1$s expands to 'Yoast SEO', %2$s to an opening anchor tag for
-#. a link leading to the Plugins page, and %3$s to a closing anchor tag.
-#: src/presenters/admin/auto-update-notification-presenter.php:44
-msgid "We see that you enabled automatic updates for WordPress. We recommend that you do this for %1$s as well. This way we can guarantee that WordPress and %1$s will continue to run smoothly together. %2$sGo to your plugins overview to enable auto-updates for %1$s.%3$s"
-msgstr "Abbiamo notato che hai abilitato gli aggiornamenti automatici per WordPress. Ti suggeriamo di attivarli anche per %1$s. In questo modo possiamo garantire che WordPress e %1$s continuino a funzionare assieme correttamente. %2$sVai nel menu plugin per abilitare gli aggiornamenti automatici per %1$s.%3$s"
-
-#: languages/wordpress-seojs.php:573 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:573 js/dist/block-editor-1750.js:83
 msgid "Schema analysis:"
 msgstr "Analisi Schema:"
 
 #: languages/yoast-components.php:98
 #: src/presenters/admin/badge-presenter.php:80
 #: src/presenters/admin/badge-presenter.php:87
-#: js/dist/externals/componentsNew-1740.js:1
+#: js/dist/externals/componentsNew-1750.js:1
 msgid "New"
 msgstr "Nuovo"
 
@@ -657,19 +657,19 @@ msgstr "Abilita i breadcrumb per il tuo tema"
 msgid "Note: You can always choose to enable / disable them for your theme below. This setting will not apply to breadcrumbs inserted through a widget, a block or a shortcode."
 msgstr "Nota: puoi sempre scegliere di abilitarli / disabilitarli per il tuo tema qui sotto. Questa impostazione non si applica ai breadcrumb inseriti attraverso un widget, un blocco o uno shortcode."
 
-#: languages/yoast-components.php:95 js/dist/externals/componentsNew-1740.js:3
+#: languages/yoast-components.php:95 js/dist/externals/componentsNew-1750.js:3
 msgid "seconds"
 msgstr "secondi"
 
-#: languages/yoast-components.php:83 js/dist/externals/componentsNew-1740.js:3
+#: languages/yoast-components.php:83 js/dist/externals/componentsNew-1750.js:3
 msgid "Select image"
 msgstr "Seleziona un'immagine"
 
-#: languages/yoast-components.php:79 js/dist/externals/componentsNew-1740.js:3
+#: languages/yoast-components.php:79 js/dist/externals/componentsNew-1750.js:3
 msgid "Replace image"
 msgstr "Sostituisci l'immagine"
 
-#: languages/yoast-components.php:86 js/dist/externals/componentsNew-1740.js:3
+#: languages/yoast-components.php:86 js/dist/externals/componentsNew-1750.js:3
 msgid "Remove image"
 msgstr "Rimuovi l'immagine"
 
@@ -678,27 +678,27 @@ msgstr "Rimuovi l'immagine"
 msgid "%1$s premium plugin updates work fine"
 msgstr "Gli aggiornamenti del plugin %1$s premium funzionano bene"
 
-#: languages/wordpress-seojs.php:558 js/dist/dynamic-blocks-1740.js:1
+#: languages/wordpress-seojs.php:558 js/dist/dynamic-blocks-1750.js:1
 msgid "site structure"
 msgstr "struttura del sito"
 
-#: languages/wordpress-seojs.php:555 js/dist/dynamic-blocks-1740.js:1
+#: languages/wordpress-seojs.php:555 js/dist/dynamic-blocks-1750.js:1
 msgid "internal linking"
 msgstr "link interni"
 
-#: languages/wordpress-seojs.php:552 js/dist/dynamic-blocks-1740.js:1
+#: languages/wordpress-seojs.php:552 js/dist/dynamic-blocks-1750.js:1
 msgid "breadcrumbs"
 msgstr "breadcrumb"
 
-#: languages/wordpress-seojs.php:549 js/dist/dynamic-blocks-1740.js:1
+#: languages/wordpress-seojs.php:549 js/dist/dynamic-blocks-1750.js:1
 msgid "seo"
 msgstr "seo"
 
-#: languages/wordpress-seojs.php:546 js/dist/dynamic-blocks-1740.js:1
+#: languages/wordpress-seojs.php:546 js/dist/dynamic-blocks-1750.js:1
 msgid "Adds the Yoast SEO breadcrumbs to your template or content."
 msgstr "Aggiungi i breadcrumb di Yoast SEO al template o al contenuto."
 
-#: languages/wordpress-seojs.php:543 js/dist/dynamic-blocks-1740.js:1
+#: languages/wordpress-seojs.php:543 js/dist/dynamic-blocks-1750.js:1
 msgid "Yoast Breadcrumbs"
 msgstr "Breadcrumb di Yoast"
 
@@ -736,19 +736,19 @@ msgid "Because of a change in your category base setting, some of your SEO data 
 msgstr "Poichè ci sono stati dei cambiamenti nelle impostazioni dell'URL della categoria, alcuni dei tuoi dati SEO devono essere processati di nuovo."
 
 #. Translators: %1$s translates to the Post Label in singular form
-#: languages/wordpress-seojs.php:595 js/dist/elementor-1740.js:83
+#: languages/wordpress-seojs.php:595 js/dist/elementor-1750.js:83
 msgid "Unfortunately we cannot save changes to your SEO settings while you are working on a draft of an already-published %1$s. If you want to save your SEO changes, make sure to click 'Update', or wait to make your SEO changes until you are ready to update the %1$s."
 msgstr "Non possiamo salvare i cambiamenti nelle impostazioni SEO mentre stai lavorando su una bozza di un %1$s già pubblicato. Se vuoi salvare i cambiamenti nei dati SEO, fai click su 'Aggiorna', o aspetta a cambiare i dati SEO fino a quando è pronto l'aggiornamento di %1$s."
 
-#: languages/wordpress-seojs.php:561 js/dist/elementor-1740.js:83
+#: languages/wordpress-seojs.php:561 js/dist/elementor-1750.js:83
 msgid "New: Yoast SEO for Elementor"
 msgstr "Nuovo: Yoast SEO per Elementor"
 
-#: languages/wordpress-seojs.php:567 js/dist/elementor-1740.js:83
+#: languages/wordpress-seojs.php:567 js/dist/elementor-1750.js:83
 msgid "Got it"
 msgstr "Fatto"
 
-#: languages/wordpress-seojs.php:564 js/dist/elementor-1740.js:83
+#: languages/wordpress-seojs.php:564 js/dist/elementor-1750.js:83
 msgid "Get started with Yoast SEO's content analysis for Elementor!"
 msgstr "Inizia con l'analisi del contenuto per Elementor!"
 
@@ -803,203 +803,203 @@ msgstr "L'integrazione con %s offre suggerimenti e approfondimenti per le parole
 msgid "This tab allows you to selectively disable %1$s integrations with third-party products for all sites in the network. By default all integrations are enabled, which allows site admins to choose for themselves if they want to toggle an integration on or off for their site. When you disable an integration here, site admins will not be able to use that integration at all."
 msgstr "Questa scheda ti permette di disabilitare le integrazioni %1$s da servizi di terze parti per tutti i siti nella tua rete. L'impostazione predefinita per tutte le integrazioni è di essere abilitate, così da permettere agli amministratori del sito di scegliere autonomamente se mostrare o nascondere un'integrazione per il loro sito. Quando disattivi un'integrazione qui, gli amministratori del sito non potranno più usare quell'integrazione."
 
-#: languages/wordpress-seojs.php:125 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:125 js/dist/indexation-1750.js:1
 msgid "Stop SEO data optimization"
 msgstr "Interrompi l'ottimizzazione dei dati SEO"
 
-#: languages/wordpress-seojs.php:134 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:134 js/dist/indexation-1750.js:1
 msgid "Optimizing SEO data... This may take a while."
 msgstr "Ottimizzazione dei dati SEO in corso... Potrebbe metterci qualche minuto."
 
-#: languages/wordpress-seojs.php:137 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:137 js/dist/indexation-1750.js:1
 msgid "SEO data optimization complete"
 msgstr "L'ottimizzazione dei dati SEO è stata completata"
 
 #. translators: %s: Expands to "Yoast SEO Premium".
-#: languages/wordpress-seojs.php:479 js/dist/block-editor-1740.js:25
-#: js/dist/classic-editor-1740.js:25 js/dist/editor-modules-1740.js:13
-#: js/dist/elementor-1740.js:25
+#: languages/wordpress-seojs.php:479 js/dist/block-editor-1750.js:25
+#: js/dist/classic-editor-1750.js:25 js/dist/editor-modules-1750.js:13
+#: js/dist/elementor-1750.js:25
 msgid "Check out %s!"
 msgstr "Dai un'occhiata a %s!"
 
 #. translators: %s: Expands to "Yoast SEO".
-#: languages/wordpress-seojs.php:475 js/dist/block-editor-1740.js:23
-#: js/dist/classic-editor-1740.js:23 js/dist/editor-modules-1740.js:11
-#: js/dist/elementor-1740.js:23
+#: languages/wordpress-seojs.php:475 js/dist/block-editor-1750.js:23
+#: js/dist/classic-editor-1750.js:23 js/dist/editor-modules-1750.js:11
+#: js/dist/elementor-1750.js:23
 msgid "Would you like to be able to add these related keyphrases to the %s analysis so you can optimize your content even further?"
 msgstr "Ti piacerebbe poter aggiungere queste frasi chiave correlate all'analisi %s in modo da poter ottimizzare ulteriormente i tuoi contenuti?"
 
-#: languages/wordpress-seojs.php:471 js/dist/block-editor-1740.js:25
-#: js/dist/classic-editor-1740.js:25 js/dist/editor-modules-1740.js:13
-#: js/dist/elementor-1740.js:25
+#: languages/wordpress-seojs.php:471 js/dist/block-editor-1750.js:25
+#: js/dist/classic-editor-1750.js:25 js/dist/editor-modules-1750.js:13
+#: js/dist/elementor-1750.js:25
 msgid "We've encountered a problem trying to get related keyphrases. Please try again later."
 msgstr "Abbiamo incontrato un problema nel cercare di ottenere le relative frasi chiave. Riprova più tardi."
 
 #. translators: %s: Expands to "Yoast SEO".
-#: languages/wordpress-seojs.php:468 js/dist/block-editor-1740.js:27
-#: js/dist/classic-editor-1740.js:27 js/dist/editor-modules-1740.js:15
-#: js/dist/elementor-1740.js:27
+#: languages/wordpress-seojs.php:468 js/dist/block-editor-1750.js:27
+#: js/dist/classic-editor-1750.js:27 js/dist/editor-modules-1750.js:15
+#: js/dist/elementor-1750.js:27
 msgid "You've reached the maximum amount of 4 related keyphrases. You can change or remove related keyphrases in the %s metabox or sidebar."
 msgstr "Hai raggiunto il numero massimo di 4 frasi chiave correlate. Puoi cambiare o rimuovere le frasi correlate nella metabox di %s o nella barra laterale."
 
 #. translators: %1$s expands to "Yoast SEO", %2$s expands to "Semrush".
-#: languages/wordpress-seojs.php:464 js/dist/block-editor-1740.js:15
-#: js/dist/classic-editor-1740.js:15 js/dist/editor-modules-1740.js:3
-#: js/dist/elementor-1740.js:15
+#: languages/wordpress-seojs.php:464 js/dist/block-editor-1750.js:15
+#: js/dist/classic-editor-1750.js:15 js/dist/editor-modules-1750.js:3
+#: js/dist/elementor-1750.js:15
 msgid "Please wait while %1$s connects to %2$s to get related keyphrases..."
 msgstr "Attendi mentre %1$s si connette a %2$s per ottenere le relative frasi chiave..."
 
 #. translators: %s : Expands to "Semrush".
-#: languages/wordpress-seojs.php:460 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:460 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Upgrade your %s plan"
 msgstr "Aggiorna il tuo piano su %s"
 
 #. translators: %s : Expands to "Semrush".
-#: languages/wordpress-seojs.php:456 js/dist/block-editor-1740.js:17
-#: js/dist/classic-editor-1740.js:17 js/dist/editor-modules-1740.js:5
-#: js/dist/elementor-1740.js:17
+#: languages/wordpress-seojs.php:456 js/dist/block-editor-1750.js:17
+#: js/dist/classic-editor-1750.js:17 js/dist/editor-modules-1750.js:5
+#: js/dist/elementor-1750.js:17
 msgid "You've reached your request limit for today. Check back tomorrow or upgrade your plan over at %s."
 msgstr "Hai raggiunto il limite di richieste per oggi. Controlla domani o aggiorna il tuo piano su %s."
 
-#: languages/wordpress-seojs.php:452 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:452 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Last month"
 msgstr "Il mese scorso"
 
-#: languages/wordpress-seojs.php:449 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:449 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Two months ago"
 msgstr "Due mesi fa"
 
-#: languages/wordpress-seojs.php:446 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:446 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Three months ago"
 msgstr "Tre mesi fa"
 
-#: languages/wordpress-seojs.php:443 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:443 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Four months ago"
 msgstr "Quattro mesi fa"
 
-#: languages/wordpress-seojs.php:440 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:440 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Five months ago"
 msgstr "CInque mesi fa"
 
-#: languages/wordpress-seojs.php:437 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:437 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Six months ago"
 msgstr "Sei mesi fa"
 
-#: languages/wordpress-seojs.php:434 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:434 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Seven months ago"
 msgstr "Sette mesi fa"
 
-#: languages/wordpress-seojs.php:431 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:431 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Eight months ago"
 msgstr "Otto mesi fa"
 
-#: languages/wordpress-seojs.php:428 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:428 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Nine months ago"
 msgstr "Nove mesi fa"
 
-#: languages/wordpress-seojs.php:425 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:425 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Ten months ago"
 msgstr "Dieci mesi fa"
 
-#: languages/wordpress-seojs.php:422 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:422 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Eleven months ago"
 msgstr "Undici mesi fa"
 
-#: languages/wordpress-seojs.php:419 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:419 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Twelve months ago"
 msgstr "Dodici mesi fa"
 
 #. translators: %s expands to Semrush
-#: languages/wordpress-seojs.php:416 js/dist/block-editor-1740.js:21
-#: js/dist/classic-editor-1740.js:21 js/dist/editor-modules-1740.js:9
-#: js/dist/elementor-1740.js:21
+#: languages/wordpress-seojs.php:416 js/dist/block-editor-1750.js:21
+#: js/dist/classic-editor-1750.js:21 js/dist/editor-modules-1750.js:9
+#: js/dist/elementor-1750.js:21
 msgid "Get more insights at %s"
 msgstr "Approfondisci su %s"
 
-#: languages/wordpress-seojs.php:412 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:412 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Keyphrase volume in the last 12 months on a scale from 0 to 100."
 msgstr "Volume della frase chiave negli ultimi 12 mesi su una scala da 0 a 100."
 
-#: languages/wordpress-seojs.php:409 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:409 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Learn more about the related keyphrases trend"
 msgstr "Per saperne di più sulla tendenza delle frasi chiave correlate"
 
-#: languages/wordpress-seojs.php:406 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:406 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Trend"
 msgstr "Tendenza"
 
-#: languages/wordpress-seojs.php:403 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:403 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Learn more about the related keyphrases volume"
 msgstr "Per saperne di più sul volume delle frasi chiave correlate"
 
-#: languages/wordpress-seojs.php:400 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:400 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Volume"
 msgstr "Volume"
 
-#: languages/wordpress-seojs.php:397 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:397 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Related keyphrase"
 msgstr "Frase chiave correlata"
 
-#: languages/wordpress-seojs.php:394 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:394 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Select country"
 msgstr "Seleziona il Paese"
 
-#: languages/wordpress-seojs.php:391 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:391 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "Show results for:"
 msgstr "Mostra i risultati per:"
 
-#: languages/wordpress-seojs.php:286 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:286 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Please enter a focus keyphrase first to get related keyphrases"
 msgstr "Prima inserisci una frase chiave principale per ottenere le frasi chiave correlate"
 
-#: languages/wordpress-seojs.php:131 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:131 js/dist/indexation-1750.js:1
 msgid "SEO data optimization is disabled for non-production environments."
 msgstr "L'ottimizzazione dati SEO è disabilitata per gli ambienti di sviluppo."
 
-#: languages/wordpress-seojs.php:122 js/dist/indexation-1740.js:1
+#: languages/wordpress-seojs.php:122 js/dist/indexation-1750.js:1
 msgid "This feature includes and replaces the Text Link Counter and Internal Linking Analysis"
 msgstr "Questa funzionalità include e sostituisce il contatore di link nei testi e la funzionalità di analisi dei link interni"
 
@@ -1022,7 +1022,7 @@ msgstr "Puoi rendere più veloce il tuo sito e ottenere informazioni sulla sua s
 
 #: languages/wordpress-seojs.php:128
 #: src/presenters/admin/indexing-notification-presenter.php:59
-#: js/dist/indexation-1740.js:1
+#: js/dist/indexation-1750.js:1
 msgid "Start SEO data optimization"
 msgstr "Inizia l'ottimizzazione dei dati SEO"
 
@@ -1038,25 +1038,25 @@ msgstr "Puoi rendere più veloce il tuo sito e ottenere informazioni sulla sua s
 msgid "All permalinks were successfully reset"
 msgstr "Tutti i permalink sono stati reimpostati con successo."
 
-#: languages/wordpress-seojs.php:210 js/dist/block-editor-1740.js:27
-#: js/dist/classic-editor-1740.js:27 js/dist/editor-modules-1740.js:15
-#: js/dist/elementor-1740.js:27
+#: languages/wordpress-seojs.php:210 js/dist/block-editor-1750.js:27
+#: js/dist/classic-editor-1750.js:27 js/dist/editor-modules-1750.js:15
+#: js/dist/elementor-1750.js:27
 msgid "Sorry, there's no data available for that keyphrase/country combination."
 msgstr "Non ci sono dati disponibili per quella combinazione di frase chiave/paese."
 
-#: languages/wordpress-seojs.php:204 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:204 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Get related keyphrases"
 msgstr "Ottieni le frasi chiave correlate"
 
-#: languages/wordpress-seojs.php:201 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:201 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Related keyphrases"
 msgstr "Frasi chiave correlate"
 
-#: languages/wordpress-seojs.php:107 js/dist/block-editor-1740.js:19
-#: js/dist/classic-editor-1740.js:19 js/dist/editor-modules-1740.js:7
-#: js/dist/elementor-1740.js:19
+#: languages/wordpress-seojs.php:107 js/dist/block-editor-1750.js:19
+#: js/dist/classic-editor-1750.js:19 js/dist/editor-modules-1750.js:7
+#: js/dist/elementor-1750.js:19
 msgid "The number of headers and header labels don't match."
 msgstr "Il numero di header a di etichette per l'header non combacia."
 
@@ -1097,28 +1097,28 @@ msgid "Disabling Yoast SEO's XML sitemaps will not disable WordPress' core sitem
 msgstr "La disabilitazione delle sitemap XML di Yoast SEO non disabilita le sitemap di WordPress. In alcuni casi, questo %1$s può causare errori di SEO sul tuo sito%2$s. Questi possono essere segnalati in Google Search Console e altri strumenti."
 
 #. Translators: %s expands to the social medium name, i.e. Faceboook.
-#: languages/wordpress-seojs.php:501 js/dist/block-editor-1740.js:83
-#: js/dist/elementor-1740.js:76
+#: languages/wordpress-seojs.php:501 js/dist/block-editor-1750.js:83
+#: js/dist/elementor-1750.js:76
 msgid "Twitter preview"
 msgstr "Anteprima di Twitter"
 
 #. Translators: %s expands to the social medium name, i.e. Faceboook.
-#: languages/wordpress-seojs.php:497 js/dist/block-editor-1740.js:83
-#: js/dist/elementor-1740.js:81
+#: languages/wordpress-seojs.php:497 js/dist/block-editor-1750.js:83
+#: js/dist/elementor-1750.js:81
 msgid "Facebook preview"
 msgstr "Anteprima di Facebook"
 
 #. Translators: %s translates to the Post Label in singular form
-#: languages/wordpress-seojs.php:489 js/dist/block-editor-1740.js:7
-#: js/dist/classic-editor-1740.js:7 js/dist/editor-modules-1740.js:17
-#: js/dist/elementor-1740.js:7
+#: languages/wordpress-seojs.php:489 js/dist/block-editor-1750.js:7
+#: js/dist/classic-editor-1750.js:7 js/dist/editor-modules-1750.js:17
+#: js/dist/elementor-1750.js:7
 msgid "Make sure to save your %s for changes to take effect"
 msgstr "Assicurati di salvare %s affinché i cambiamenti abbiano effetto"
 
 #. Translators: %s translates to the Post Label in singular form
-#: languages/wordpress-seojs.php:493 js/dist/block-editor-1740.js:9
-#: js/dist/classic-editor-1740.js:9 js/dist/editor-modules-1740.js:19
-#: js/dist/elementor-1740.js:9
+#: languages/wordpress-seojs.php:493 js/dist/block-editor-1750.js:9
+#: js/dist/classic-editor-1750.js:9 js/dist/editor-modules-1750.js:19
+#: js/dist/elementor-1750.js:9
 msgid "Return to your %s"
 msgstr "Ritorna al tuo %s"
 
@@ -1149,13 +1149,13 @@ msgstr "Sicurezza: non c'è alcuna impostazione avanzata o schema per gli autori
 
 #. translators: %1$s expands to the plural name of the current post type, %2$s
 #. expands to the current site wide default.
-#: languages/wordpress-seojs.php:251 js/dist/block-editor-1740.js:61
-#: js/dist/classic-editor-1740.js:61 js/dist/elementor-1740.js:61
+#: languages/wordpress-seojs.php:251 js/dist/block-editor-1750.js:61
+#: js/dist/classic-editor-1750.js:61 js/dist/elementor-1750.js:61
 msgid "Default for %1$s (%2$s)"
 msgstr "Predefinito %1$s (%2$s)"
 
-#: languages/wordpress-seojs.php:536 js/dist/block-editor-1740.js:63
-#: js/dist/classic-editor-1740.js:63 js/dist/elementor-1740.js:63
+#: languages/wordpress-seojs.php:536 js/dist/block-editor-1750.js:63
+#: js/dist/classic-editor-1750.js:63 js/dist/elementor-1750.js:63
 msgid "This helps search engines understand your website and your content. You can change some of your settings for this page below."
 msgstr "Questo aiuta i motori di ricerca a capire il tuo sito e i tuoi contenuti. Puoi modificare alcune delle impostazioni per questa pagina qui sotto."
 
@@ -1166,6 +1166,10 @@ msgstr "Rapporto"
 #: src/config/schema-types.php:150
 msgid "Tech Article"
 msgstr "Articolo tecnico"
+
+#: src/config/schema-types.php:146
+msgid "Scholarly Article"
+msgstr "Articolo scolastico"
 
 #: src/config/schema-types.php:142
 msgid "Satirical Article"
@@ -1235,64 +1239,64 @@ msgstr "Pagina elemento"
 msgid "Web Page"
 msgstr "Pagina web"
 
-#: languages/wordpress-seojs.php:533 js/dist/block-editor-1740.js:63
-#: js/dist/classic-editor-1740.js:63 js/dist/elementor-1740.js:63
+#: languages/wordpress-seojs.php:533 js/dist/block-editor-1750.js:63
+#: js/dist/classic-editor-1750.js:63 js/dist/elementor-1750.js:63
 msgid "Yoast SEO automatically describes your pages using schema.org"
 msgstr "Yoast SEO descrive automaticamente le pagine utilizzando schema.org"
 
-#: languages/wordpress-seojs.php:530 js/dist/settings-1740.js:6
+#: languages/wordpress-seojs.php:530 js/dist/settings-1750.js:6
 msgid "default"
 msgstr "predefinito"
 
-#: languages/wordpress-seojs.php:247 js/dist/block-editor-1740.js:63
-#: js/dist/classic-editor-1740.js:63 js/dist/elementor-1740.js:63
+#: languages/wordpress-seojs.php:247 js/dist/block-editor-1750.js:63
+#: js/dist/classic-editor-1750.js:63 js/dist/elementor-1750.js:63
 msgid "Article type"
 msgstr "Tipo di articolo"
 
-#: languages/wordpress-seojs.php:243 js/dist/block-editor-1740.js:63
-#: js/dist/classic-editor-1740.js:63 js/dist/elementor-1740.js:63
+#: languages/wordpress-seojs.php:243 js/dist/block-editor-1750.js:63
+#: js/dist/classic-editor-1750.js:63 js/dist/elementor-1750.js:63
 msgid "Page type"
 msgstr "Tipo di pagina"
 
-#: languages/wordpress-seojs.php:239 js/dist/block-editor-1740.js:63
-#: js/dist/classic-editor-1740.js:63 js/dist/elementor-1740.js:63
+#: languages/wordpress-seojs.php:239 js/dist/block-editor-1750.js:63
+#: js/dist/classic-editor-1750.js:63 js/dist/elementor-1750.js:63
 msgid "Learn more about page or content types"
 msgstr "Leggi di più sulle pagine About o sui tipi di contenuto"
 
-#: languages/wordpress-seojs.php:236 js/dist/block-editor-1740.js:63
-#: js/dist/classic-editor-1740.js:63 js/dist/elementor-1740.js:63
+#: languages/wordpress-seojs.php:236 js/dist/block-editor-1750.js:63
+#: js/dist/classic-editor-1750.js:63 js/dist/elementor-1750.js:63
 msgid "What type of page or content is this?"
 msgstr "Che tipo di pagina o contenuto è?"
 
-#: languages/wordpress-seojs.php:258 js/dist/block-editor-1740.js:63
-#: js/dist/classic-editor-1740.js:63 js/dist/elementor-1740.js:63
+#: languages/wordpress-seojs.php:258 js/dist/block-editor-1750.js:63
+#: js/dist/classic-editor-1750.js:63 js/dist/elementor-1750.js:63
 msgid "Learn more about structured data with Schema.org"
 msgstr "Leggi di più sui dati strutturati di Schema.org"
 
 #. translators: %1$s expands to the plural name of the current post type, %2$s
 #. and %3$s expand to a link to the Search Appearance Settings page
-#: languages/wordpress-seojs.php:255 js/dist/block-editor-1740.js:63
-#: js/dist/classic-editor-1740.js:63 js/dist/elementor-1740.js:63
+#: languages/wordpress-seojs.php:255 js/dist/block-editor-1750.js:63
+#: js/dist/classic-editor-1750.js:63 js/dist/elementor-1750.js:63
 msgid "You can change the default type for %1$s in your %2$sSearch Appearance Settings%3$s."
 msgstr "Puoi cambiare il tipo predefinito per %1$s nelle %2$sImpostazioni dell'Aspetto della ricerca%3$s."
 
-#: languages/wordpress-seojs.php:216 js/dist/block-editor-1740.js:5
-#: js/dist/classic-editor-1740.js:5 js/dist/elementor-1740.js:5
-#: js/dist/settings-1740.js:10
+#: languages/wordpress-seojs.php:216 js/dist/block-editor-1750.js:5
+#: js/dist/classic-editor-1750.js:5 js/dist/elementor-1750.js:5
+#: js/dist/settings-1750.js:10
 msgid "Default Article type"
 msgstr "Tipo di articolo predefinito"
 
-#: languages/wordpress-seojs.php:213 js/dist/block-editor-1740.js:5
-#: js/dist/classic-editor-1740.js:5 js/dist/elementor-1740.js:5
-#: js/dist/settings-1740.js:10
+#: languages/wordpress-seojs.php:213 js/dist/block-editor-1750.js:5
+#: js/dist/classic-editor-1750.js:5 js/dist/elementor-1750.js:5
+#: js/dist/settings-1750.js:10
 msgid "Default Page type"
 msgstr "Tipo di pagina predefinito"
 
 #. translators: %1$s expands to an indexable object's name, e.g. Posts or
 #. Pages.
-#: languages/wordpress-seojs.php:230 js/dist/block-editor-1740.js:5
-#: js/dist/classic-editor-1740.js:5 js/dist/elementor-1740.js:5
-#: js/dist/settings-1740.js:10
+#: languages/wordpress-seojs.php:230 js/dist/block-editor-1750.js:5
+#: js/dist/classic-editor-1750.js:5 js/dist/elementor-1750.js:5
+#: js/dist/settings-1750.js:10
 msgid "Upon saving, this setting will apply to all of your %1$s. %1$s that are manually configured will be left untouched."
 msgid_plural "Upon saving, these settings will apply to all of your %1$s. %1$s that are manually configured will be left untouched."
 msgstr[0] "Questa impostazione sarà applicata a %1$s. %1$s che è configurato manualmente non sarà modificato."
@@ -1300,21 +1304,21 @@ msgstr[1] "Questa impostazione si applica a tutti i %1$s. %1$s che sono configur
 
 #. translators: %1$s expands to an indexable object's name, e.g. Posts or
 #. Pages.
-#: languages/wordpress-seojs.php:226 js/dist/block-editor-1740.js:3
-#: js/dist/classic-editor-1740.js:3 js/dist/elementor-1740.js:3
-#: js/dist/settings-1740.js:8
+#: languages/wordpress-seojs.php:226 js/dist/block-editor-1750.js:3
+#: js/dist/classic-editor-1750.js:3 js/dist/elementor-1750.js:3
+#: js/dist/settings-1750.js:8
 msgid "Choose how your %1$s should be described by default in your site's schema.org markup. You can change these settings for individual %1$s."
 msgstr "Scegli come vuoi che %1$s siano descritti in modo predefinito negli schema.org markup del tuo sito. Puoi cambiare queste impostazioni per ogni %1$s."
 
-#: languages/wordpress-seojs.php:222 js/dist/block-editor-1740.js:1
-#: js/dist/classic-editor-1740.js:1 js/dist/elementor-1740.js:1
-#: js/dist/settings-1740.js:6
+#: languages/wordpress-seojs.php:222 js/dist/block-editor-1750.js:1
+#: js/dist/classic-editor-1750.js:1 js/dist/elementor-1750.js:1
+#: js/dist/settings-1750.js:6
 msgid "Learn more about the schema settings"
 msgstr "Scopri di più sulle impostazioni di Schema."
 
-#: languages/wordpress-seojs.php:219 js/dist/block-editor-1740.js:1
-#: js/dist/classic-editor-1740.js:1 js/dist/elementor-1740.js:1
-#: js/dist/settings-1740.js:6
+#: languages/wordpress-seojs.php:219 js/dist/block-editor-1750.js:1
+#: js/dist/classic-editor-1750.js:1 js/dist/elementor-1750.js:1
+#: js/dist/settings-1750.js:6
 msgid "Schema settings"
 msgstr "Impostazioni di Schema"
 
@@ -1341,15 +1345,15 @@ msgstr "Tracciamento d'uso"
 msgid "At Yoast, we are always keen on providing the very best experience for you. To do so, we'd like to collect some data about which other plugins and themes you have installed, and which features you use and don't use. Be assured that we'll never resell that data. And of course, as always, we won't collect any personal data about you or your visitors!"
 msgstr "Noi di Yoast siamo sempre pronti a offrirti la migliore esperienza possibile. Per fare ciò, vorremmo raccogliere alcuni dati relativi a quali altri plugin e temi hai installato e quali funzioni usi e non usi. Ti assicuriamo che non rivenderemo mai quei dati. E naturalmente, come sempre, non raccoglieremo alcun dato personale su di te o sui tuoi visitatori!"
 
-#: languages/wordpress-seojs.php:657 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:657 js/dist/structured-data-blocks-1750.js:9
 msgid "Structured Data"
 msgstr "Dati strutturati"
 
-#: languages/wordpress-seojs.php:688 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:688 js/dist/structured-data-blocks-1750.js:9
 msgid "Yoast How-to"
 msgstr "Blocco How-to di Yoast"
 
-#: languages/wordpress-seojs.php:640 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:640 js/dist/structured-data-blocks-1750.js:9
 msgid "Yoast FAQ"
 msgstr "Blocco FAQ di Yoast"
 
@@ -1374,25 +1378,25 @@ msgid "Because of a change in your home URL setting, some of your SEO data needs
 msgstr "Poichè ci sono stati dei cambiamenti nelle impostazioni dell'URL della home, alcuni dei tuoi dati SEO devono essere processati di nuovo."
 
 #. Translators: %s expands to the social medium name, i.e. Faceboook.
-#: languages/wordpress-seojs.php:527 js/dist/block-editor-1740.js:75
-#: js/dist/block-editor-1740.js:80 js/dist/classic-editor-1740.js:75
-#: js/dist/classic-editor-1740.js:80 js/dist/elementor-1740.js:75
-#: js/dist/elementor-1740.js:80
+#: languages/wordpress-seojs.php:527 js/dist/block-editor-1750.js:75
+#: js/dist/block-editor-1750.js:80 js/dist/classic-editor-1750.js:75
+#: js/dist/classic-editor-1750.js:80 js/dist/elementor-1750.js:75
+#: js/dist/elementor-1750.js:80
 msgid "Modify your %s description by editing it right here..."
 msgstr "Modifica la descrizione %s direttamente da qui..."
 
 #. Translators: %s expands to the social medium name, i.e. Faceboook.
-#: languages/wordpress-seojs.php:505 js/dist/block-editor-1740.js:82
-#: js/dist/block-editor-1740.js:83 js/dist/classic-editor-1740.js:82
-#: js/dist/classic-editor-1740.js:83
+#: languages/wordpress-seojs.php:505 js/dist/block-editor-1750.js:82
+#: js/dist/block-editor-1750.js:83 js/dist/classic-editor-1750.js:82
+#: js/dist/classic-editor-1750.js:83
 msgid "%s preview"
 msgstr "Anteprima di %s"
 
 #. Translators: %s expands to the social medium name, i.e. Faceboook.
-#: languages/wordpress-seojs.php:520 js/dist/block-editor-1740.js:73
-#: js/dist/block-editor-1740.js:78 js/dist/classic-editor-1740.js:73
-#: js/dist/classic-editor-1740.js:78 js/dist/elementor-1740.js:73
-#: js/dist/elementor-1740.js:78
+#: languages/wordpress-seojs.php:520 js/dist/block-editor-1750.js:73
+#: js/dist/block-editor-1750.js:78 js/dist/classic-editor-1750.js:73
+#: js/dist/classic-editor-1750.js:78 js/dist/elementor-1750.js:73
+#: js/dist/elementor-1750.js:78
 msgid "Modify your %s title by editing it right here..."
 msgstr "Modifica il titolo %s direttamente da qui..."
 
@@ -1409,34 +1413,34 @@ msgid "%1$sKeyphrase in title%3$s: The exact match of the focus keyphrase appear
 msgstr "%1$sFrase chiave nel titolo%3$s: il titolo contiene l'esatta  frase chiave ma non all'inizio. %2$sMettila all'inizio del titolo per risultati migliori%3$s."
 
 #. Translators: %s expands to Twitter, %s expands to the 5MB size.
-#: languages/yoast-components.php:171 js/dist/externals/helpers-1740.js:13
+#: languages/yoast-components.php:171 js/dist/externals/helpers-1750.js:13
 msgid "The file size of the uploaded image is too large for %s. File size must be less than %s."
 msgstr "La dimensione dell'immagine che hai caricato è troppo larga per %s. La dimensione del file deve essere inferiore a %s."
 
 #. Translators: %s expands to the jpg format, %s expands to the png format, %s
 #. expands to the gif format.
-#: languages/yoast-components.php:167 js/dist/externals/helpers-1740.js:11
+#: languages/yoast-components.php:167 js/dist/externals/helpers-1750.js:11
 msgid "The format of the uploaded image is not supported. The supported formats are: %s, %s, %s and %s."
 msgstr "Il formato dell'immagine che hai caricato non è supportato. I formati supportati sono:  %s, %s, %s e %s."
 
 #. Translators: %s expands to the gif format, %s expands to the gif format.
-#: languages/yoast-components.php:163 js/dist/externals/helpers-1740.js:9
+#: languages/yoast-components.php:163 js/dist/externals/helpers-1750.js:9
 msgid "You have uploaded a %s. Please note that, if it’s an animated %s, only the first frame will be used."
 msgstr "Hai caricato una immagine %s. Se %s è una animazione, sarà usato solo il primo fotogramma."
 
-#: languages/yoast-components.php:159 js/dist/externals/helpers-1740.js:5
+#: languages/yoast-components.php:159 js/dist/externals/helpers-1750.js:5
 msgid "Your image dimensions are not suitable. The minimum dimensions are %dx%d pixels. The maximum dimensions are %dx%d pixels."
 msgstr "Le dimensioni dell'immagine non sono adatte. Le dimensioni minime sono %dx%d pixels. Le massime %dx%d pixels."
 
 #. Translators: %d expands to the minimum width, %d expands to the minimum
 #. hight
-#: languages/yoast-components.php:151 js/dist/externals/helpers-1740.js:3
+#: languages/yoast-components.php:151 js/dist/externals/helpers-1750.js:3
 msgid "Your image dimensions are not suitable. The minimum dimensions are %dx%d pixels."
 msgstr "Le dimensioni dell'immagine non sono adatte. Le dimensioni minime sono %dx%d pixels. "
 
 #. Translators: %s expands to the jpg format, %s expands to the png format, %s
 #. expands to the gif format.
-#: languages/yoast-components.php:155 js/dist/externals/helpers-1740.js:5
+#: languages/yoast-components.php:155 js/dist/externals/helpers-1750.js:5
 msgid "The format of the uploaded image is not supported. The supported formats are: %s, %s and %s."
 msgstr "Il formato dell'immagine che hai caricato non è supportato. I formati supportati sono:  %s, %s e %s."
 
@@ -1445,75 +1449,75 @@ msgstr "Il formato dell'immagine che hai caricato non è supportato. I formati s
 msgid "%1$s Internal Linking Blocks"
 msgstr "Internal Linking Block di %1$s"
 
-#: languages/wordpress-seojs.php:637 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:637 js/dist/block-editor-1750.js:83
 msgid "Open in new tab"
 msgstr "Apri in una nuova scheda"
 
-#: languages/wordpress-seojs.php:634 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:634 js/dist/block-editor-1750.js:83
 msgid "This is a sponsored link or advert (mark as %1$ssponsored%2$s)%3$s"
 msgstr "Questo è un link sponsorizzato o pubblicitario (contrassegna come %1$ssponsorizzato%2$s)%3$s"
 
-#: languages/wordpress-seojs.php:631 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:631 js/dist/block-editor-1750.js:83
 msgid "Search engines should ignore this link (mark as %1$snofollow%2$s)%3$s"
 msgstr "I motori di ricerca dovrebbero ignorare questo link (contrassegna come %1$snofollow%2$s)%3$s"
 
-#: languages/wordpress-seojs.php:628 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:628 js/dist/block-editor-1750.js:83
 msgid "Learn more about marking a link as nofollow or sponsored."
 msgstr "Approfondisci come contrassegnare un link come nofollow o sponsorizzato."
 
-#: languages/wordpress-seojs.php:625 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:625 js/dist/block-editor-1750.js:83
 msgid "Link inserted."
 msgstr "Il link è stato inserito."
 
-#: languages/wordpress-seojs.php:622 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:622 js/dist/block-editor-1750.js:83
 msgid "Link edited."
 msgstr "Il link è stato modificato."
 
-#: languages/wordpress-seojs.php:613 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:613 js/dist/block-editor-1750.js:83
 msgid "Unlink"
 msgstr "Rimuovi il link"
 
-#: languages/wordpress-seojs.php:610 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:610 js/dist/block-editor-1750.js:83
 msgid "Link removed."
 msgstr "Il link è stato rimosso."
 
-#: languages/wordpress-seojs.php:616 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:616 js/dist/block-editor-1750.js:83
 msgid "Link"
 msgstr "Link"
 
-#: languages/wordpress-seojs.php:187 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:187 js/dist/block-editor-1750.js:83
 msgid "We've analyzed your post. There is still room for improvement!"
 msgstr "Abbiamo analizzato il tuo articolo. È possibile miglioralo ancora!"
 
-#: languages/wordpress-seojs.php:184 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:184 js/dist/block-editor-1750.js:83
 msgid "We've analyzed your post. Everything looks good. Well done!"
 msgstr "Abbiamo analizzato il tuo articolo. Tutto sembra perfetto. Ottimo!"
 
-#: languages/wordpress-seojs.php:576 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:576 js/dist/block-editor-1750.js:83
 msgid "No focus keyword was entered"
 msgstr "Non è stata inserita alcuna frase chiave"
 
-#: languages/wordpress-seojs.php:172 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:172 js/dist/block-editor-1750.js:83
 msgid "Share your post!"
 msgstr "Condividi il tuo articolo!"
 
-#: languages/wordpress-seojs.php:96 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:96 js/dist/block-editor-1750.js:83
 msgid "Improve your post with Yoast SEO"
 msgstr "Migliora il tuo articolo con Yoast SEO"
 
-#: languages/wordpress-seojs.php:582 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:582 js/dist/block-editor-1750.js:83
 msgid "SEO analysis:"
 msgstr "Analisi SEO:"
 
-#: languages/wordpress-seojs.php:619 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:619 js/dist/block-editor-1750.js:83
 msgid "Warning: the link has been inserted but may have errors. Please test it."
 msgstr "Attenzione: hai inserito il link ma ci potrebbero essere degli errori. Provalo."
 
-#: languages/wordpress-seojs.php:591 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:591 js/dist/block-editor-1750.js:83
 msgid "Please upgrade your WordPress version or install the Gutenberg plugin to get this %1$s feature."
 msgstr "Aggiorna la versione di WordPress version o installa il plugin Gutenberg plugin per avere questa funzionalità %1$s."
 
-#: languages/wordpress-seojs.php:588 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:588 js/dist/block-editor-1750.js:83
 msgid "Marking links with nofollow/sponsored has been disabled for WordPress installs < 5.4."
 msgstr "La possibilità di attribuire ai link gli attributi nofollow/sponsored è stata disabilitata per le installazioni di WordPress al di sotto della 5.4."
 
@@ -1600,8 +1604,8 @@ msgstr "Il tuo sito continuerà a funzionare normalmente, ma non sfrutterà al m
 msgid "%s had problems creating the database tables needed to speed up your site."
 msgstr "%s ha riscontrato problemi durante la creazione delle tabelle del database necessarie per rendere più veloce il tuo sito."
 
-#: languages/wordpress-seojs.php:292 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:292 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Your keyphrase is too long. It can be a maximum of 191 characters."
 msgstr "La tua frase chiave è troppo lunga. Può contenere un massimo di 191 caratteri."
 
@@ -1615,39 +1619,39 @@ msgstr "Non voglio che questo sito venga mostrato nei risultati di ricerca."
 msgid "If you want search engines to show this site in their results, you must %1$sgo to your Reading Settings%2$s and uncheck the box for Search Engine Visibility."
 msgstr "Se vuoi che i motori di ricerca mostrino questo sito nei loro risultati, %1$svai alle impostazioni di lettura%2$s e deseleziona la casella Visibilità ai motori di ricerca."
 
-#: languages/wordpress-seojs.php:93 js/dist/block-editor-1740.js:69
-#: js/dist/classic-editor-1740.js:69 js/dist/elementor-1740.js:69
+#: languages/wordpress-seojs.php:93 js/dist/block-editor-1750.js:69
+#: js/dist/classic-editor-1750.js:69 js/dist/elementor-1750.js:69
 msgid "Learn more about the no-index setting on our help page."
 msgstr "Per saperne di più sull'impostazione no-index, consulta la nostra pagina di aiuto."
 
-#: languages/wordpress-seojs.php:86 js/dist/block-editor-1740.js:67
-#: js/dist/classic-editor-1740.js:67 js/dist/elementor-1740.js:67
+#: languages/wordpress-seojs.php:86 js/dist/block-editor-1750.js:67
+#: js/dist/classic-editor-1750.js:67 js/dist/elementor-1750.js:67
 msgid "Even though you can set the meta robots setting here, the entire site is set to noindex in the sitewide privacy settings, so these settings won't have an effect."
 msgstr "Anche se puoi impostare qui i meta robot, l'intero sito è impostato su noindex nelle opzioni della privacy, quindi queste impostazioni non avranno alcun effetto."
 
-#: languages/wordpress-seojs.php:73 js/dist/block-editor-1740.js:71
-#: js/dist/classic-editor-1740.js:71 js/dist/elementor-1740.js:71
+#: languages/wordpress-seojs.php:73 js/dist/block-editor-1750.js:71
+#: js/dist/classic-editor-1750.js:71 js/dist/elementor-1750.js:71
 msgid "Learn more about canonical URLs on our help page."
 msgstr "Puoi leggere di più sugli URL canonici nella nostra pagina di aiuto."
 
-#: languages/wordpress-seojs.php:67 js/dist/block-editor-1740.js:71
-#: js/dist/classic-editor-1740.js:71 js/dist/elementor-1740.js:71
+#: languages/wordpress-seojs.php:67 js/dist/block-editor-1750.js:71
+#: js/dist/classic-editor-1750.js:71 js/dist/elementor-1750.js:71
 msgid "Learn more about the breadcrumbs title setting on our help page."
 msgstr "Puoi leggere di più sull'impostazione del titolo dei breadcrumb nella nostra pagina di aiuto."
 
-#: languages/wordpress-seojs.php:61 js/dist/block-editor-1740.js:71
-#: js/dist/classic-editor-1740.js:71 js/dist/elementor-1740.js:71
+#: languages/wordpress-seojs.php:61 js/dist/block-editor-1750.js:71
+#: js/dist/classic-editor-1750.js:71 js/dist/elementor-1750.js:71
 msgid "Learn more about advanced meta robots settings on our help page."
 msgstr "Puoi leggere di più sulle impostazioni avanzate dei meta robot nella nostra pagina di aiuto."
 
-#: languages/wordpress-seojs.php:46 js/dist/block-editor-1740.js:71
-#: js/dist/classic-editor-1740.js:71 js/dist/elementor-1740.js:71
+#: languages/wordpress-seojs.php:46 js/dist/block-editor-1750.js:71
+#: js/dist/classic-editor-1750.js:71 js/dist/elementor-1750.js:71
 msgid "Learn more about the no-follow setting on our help page."
 msgstr "Puoi leggere di più sulle impostazioni no-follow nella nostra pagina di aiuto."
 
 #. Translators: %s translates to the Post Label in singular form
-#: languages/wordpress-seojs.php:43 js/dist/block-editor-1740.js:71
-#: js/dist/classic-editor-1740.js:71 js/dist/elementor-1740.js:71
+#: languages/wordpress-seojs.php:43 js/dist/block-editor-1750.js:71
+#: js/dist/classic-editor-1750.js:71 js/dist/elementor-1750.js:71
 msgid "Should search engines follow links on this %s"
 msgstr "I motori di ricerca dovrebbero seguire i link su questo %s"
 
@@ -1845,27 +1849,27 @@ msgid "%1$sThis was reported by the %2$s plugin%3$s"
 msgstr "%1$sQuesto è stato riportato dal plugin %2$s%3$s"
 
 #: languages/yoast-components.php:177
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Preview as:"
 msgstr "Anteprima come:"
 
 #: languages/yoast-components.php:174
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Desktop result"
 msgstr "Risultato per il desktop"
 
 #: languages/wordpress-seojs.php:335 languages/yoast-seo-js.php:445
-#: js/dist/block-editor-1740.js:83 js/dist/classic-editor-1740.js:83
-#: js/dist/elementor-1740.js:71
+#: js/dist/block-editor-1750.js:83 js/dist/classic-editor-1750.js:83
+#: js/dist/elementor-1750.js:71
 msgid "Google preview"
 msgstr "Anteprima di Google"
 
 #: languages/yoast-components.php:180
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Mobile result"
 msgstr "Risultato per i dispositivi mobili"
 
-#: languages/wordpress-seojs.php:570 js/dist/help-scout-beacon-1740.js:1
+#: languages/wordpress-seojs.php:570 js/dist/help-scout-beacon-1750.js:1
 msgid "When you click OK we will open our HelpScout beacon where you can find answers to your questions. This beacon will load our support data and also potentially set cookies."
 msgstr "Quando fai clic su OK, apriremo il nostro beacon HelpScout in cui puoi trovare le risposte alle tue domande. Questo beacon caricherà i nostri dati di supporto e potrebbe anche impostare cookie."
 
@@ -1917,8 +1921,8 @@ msgid "Import settings from another %1$s installation by pasting them here and c
 msgstr "Importa le impostazioni da un'altra installazione di %1$s installation incollandole qui e facendo clic su \"%2$s\"."
 
 #: admin/metabox/class-metabox.php:420 languages/wordpress-seojs.php:346
-#: js/dist/block-editor-1740.js:83 js/dist/elementor-1740.js:81
-#: js/dist/structured-data-blocks-1740.js:9
+#: js/dist/block-editor-1750.js:83 js/dist/elementor-1750.js:81
+#: js/dist/structured-data-blocks-1750.js:9
 msgid "Schema"
 msgstr "Schema"
 
@@ -1965,7 +1969,7 @@ msgstr "Controlla il formato dell'URL della pagina Facebook che hai inserito. %s
 msgid "Settings saved."
 msgstr "Impostazioni salvate."
 
-#: languages/yoast-components.php:29 js/dist/externals/componentsNew-1740.js:3
+#: languages/yoast-components.php:29 js/dist/externals/componentsNew-1750.js:3
 msgid "Dismiss this alert"
 msgstr "Ignora questo avviso "
 
@@ -2063,7 +2067,7 @@ msgstr "Le impostazioni SEO configurate"
 msgid "If you want to double-check your %1$s settings, or change something, you can always %2$sreopen the configuration wizard%3$s."
 msgstr "Se vuoi controllare nuovamente le tue impostazioni di %1$s o vuoi cambiare qualcosa, puoi sempre %2$sriaprire il configuration wizard%3$s."
 
-#: languages/yoast-components.php:58 js/dist/externals/componentsNew-1740.js:3
+#: languages/yoast-components.php:58 js/dist/externals/componentsNew-1750.js:3
 msgid "Once you add a bit more copy, we'll give you a list of words that occur the most in the content. These give an indication of what your content focuses on."
 msgstr "Una volta aggiunto altro contenuto, ti forniremo un elenco di parole che ricorrono maggiormente nel testo. Tale analisi ti dà un'idea su cosa si concentra il tuo testo."
 
@@ -2074,7 +2078,7 @@ msgid "Activate %s for your site on MyYoast"
 msgstr "Attiva %s per il tuo sito su MyYoast"
 
 #. Translators: %d expands to number of occurrences.
-#: languages/yoast-components.php:72 js/dist/externals/componentsNew-1740.js:3
+#: languages/yoast-components.php:72 js/dist/externals/componentsNew-1750.js:3
 msgid "%d occurrences"
 msgstr "%d occorrenze"
 
@@ -2082,7 +2086,7 @@ msgstr "%d occorrenze"
 msgid "Show blog page in breadcrumbs"
 msgstr "Mostra la pagina blog nei breadcrumb"
 
-#: languages/yoast-components.php:108 js/dist/externals/components-1740.js:3
+#: languages/yoast-components.php:108 js/dist/externals/components-1750.js:3
 msgid "We could not find any relevant articles on your website that you could link to from your post."
 msgstr "Non troviamo nessun articolo rilevante sul tuo sito che possa essere inserito come link nel tuo articolo."
 
@@ -2137,7 +2141,7 @@ msgstr "Articoli con il punteggio SEO: %s"
 msgid "Post Noindexed"
 msgstr "Articoli non indicizzati"
 
-#: languages/wordpress-seojs.php:601 js/dist/settings-1740.js:6
+#: languages/wordpress-seojs.php:601 js/dist/settings-1750.js:6
 msgid "Person logo / avatar"
 msgstr "Logo/avatar per la persona"
 
@@ -2174,20 +2178,20 @@ msgid "Google has discontinued its Crawl Errors API. Therefore, any possible cra
 msgstr "Google ha sospeso la Crawl Errors API. Perciò, gli eventuali errori di crawl che potresti avere non possono più essere visualizzati qui. %1$sLeggi il nostro articolo per avere ulteriori informazioni%2$s."
 
 #. translators: %s expands to Local SEO
-#: languages/wordpress-seojs.php:165 js/dist/settings-1740.js:3
+#: languages/wordpress-seojs.php:165 js/dist/settings-1750.js:3
 msgid "Truly optimize your site for a local audience with our %s plugin! Optimized address details, opening hours, store locator and pickup option!"
 msgstr "Ottimizza al meglio il tuo sito per un pubblico locale con il nostro plugin %s! Dettagli ottimizzati degli indirizzi, orari di apertura, un localizzatore dei punti vendita e le opzioni di ritiro!"
 
-#: languages/wordpress-seojs.php:161 js/dist/settings-1740.js:1
+#: languages/wordpress-seojs.php:161 js/dist/settings-1750.js:1
 msgid "Serving local customers?"
 msgstr "Ti rivolgi a clienti locali?"
 
 #. translators: %s expands to Local SEO
-#: languages/wordpress-seojs.php:169 js/dist/settings-1740.js:5
+#: languages/wordpress-seojs.php:169 js/dist/settings-1750.js:5
 msgid "Get the %s plugin now"
 msgstr "Acquista subito il plugin %s"
 
-#: languages/wordpress-seojs.php:598 js/dist/settings-1740.js:6
+#: languages/wordpress-seojs.php:598 js/dist/settings-1750.js:6
 msgid "Organization logo"
 msgstr "Logo dell'Organizzazione"
 
@@ -2293,21 +2297,21 @@ msgstr "Senza categoria"
 
 #. translators: %1$s expands to the user's name, %2$s expands to an opening
 #. anchor tag, %3$s expands to a closing anchor tag.
-#: languages/wordpress-seojs.php:280 js/dist/settings-1740.js:6
+#: languages/wordpress-seojs.php:280 js/dist/settings-1750.js:6
 msgid "You have selected the user %1$s as the person this site represents. Their user profile information will now be used in search results. %2$sUpdate their profile to make sure the information is correct.%3$s"
 msgstr "Hai selezionato l'utente %1$s come la Persona che il sito rappresenta. Le sue informazioni personali saranno ora usate nei risultati di ricerca.  %2$sAggiornane il profilo per assicurarti che siano corrette .%3$s"
 
 #. translators: %1$s expands to WordPress
-#: languages/wordpress-seojs.php:271 js/dist/configuration-wizard-1740.js:3
+#: languages/wordpress-seojs.php:271 js/dist/configuration-wizard-1750.js:3
 msgid "You can edit the details shown in meta data, like the social profiles, the name and the description of this user on their %1$s profile page."
 msgstr "Puoi modificare i dettagli mostrati nei meta dati, come i profili dei social network, il nome e la descrizione di questo utente o la sua pagina del profilo %1$s."
 
-#: languages/wordpress-seojs.php:264 js/dist/configuration-wizard-1740.js:1
-#: js/dist/settings-1740.js:1
+#: languages/wordpress-seojs.php:264 js/dist/configuration-wizard-1750.js:1
+#: js/dist/settings-1750.js:1
 msgid "Select a user..."
 msgstr "Seleziona un utente..."
 
-#: languages/wordpress-seojs.php:277 js/dist/settings-1740.js:5
+#: languages/wordpress-seojs.php:277 js/dist/settings-1750.js:5
 msgid "Please select a user below to make your site's meta data complete."
 msgstr "Seleziona un utente sotto per completare i dati meta del sito."
 
@@ -2358,11 +2362,11 @@ msgstr "Link interni ricevuti"
 msgid "Outgoing internal links"
 msgstr "Link interni in uscita"
 
-#: languages/wordpress-seojs.php:700 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:700 js/dist/structured-data-blocks-1750.js:1
 msgid "New step added"
 msgstr "È stato aggiunto un nuovo passaggio"
 
-#: languages/wordpress-seojs.php:660 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:660 js/dist/structured-data-blocks-1750.js:9
 msgid "New question added"
 msgstr "È stata aggiunta una nuova domanda"
 
@@ -2808,27 +2812,27 @@ msgstr "%1$sFrase chiave nell'introduzione%3$s: la frase chiave che hai scelto o
 msgid "Good job!"
 msgstr "Ottimo lavoro!"
 
-#: languages/wordpress-seojs.php:296 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:27
-#: js/dist/elementor-1740.js:59 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: languages/wordpress-seojs.php:296 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:27
+#: js/dist/elementor-1750.js:59 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Focus keyphrase"
 msgstr "Frase chiave"
 
-#: languages/wordpress-seojs.php:315 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:315 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Would you like to add a related keyphrase?"
 msgstr "Vorresti aggiungere una frase chiave correlata?"
 
 #. translators: %s expands to Premium
-#: languages/wordpress-seojs.php:104 js/dist/block-editor-1740.js:31
-#: js/dist/classic-editor-1740.js:31 js/dist/elementor-1740.js:31
+#: languages/wordpress-seojs.php:104 js/dist/block-editor-1750.js:31
+#: js/dist/classic-editor-1750.js:31 js/dist/elementor-1750.js:31
 msgid "Go %s!"
 msgstr "Vai %s!"
 
 #. translators: %s expands to Yoast SEO Premium
-#: languages/wordpress-seojs.php:100 js/dist/block-editor-1740.js:29
-#: js/dist/classic-editor-1740.js:29 js/dist/elementor-1740.js:29
+#: languages/wordpress-seojs.php:100 js/dist/block-editor-1750.js:29
+#: js/dist/classic-editor-1750.js:29 js/dist/elementor-1750.js:29
 msgid "Did you know %s also analyzes the different word forms of your keyphrase, like plurals and past tenses?"
 msgstr "Sai che %s analizza anche le diverse forme delle tue frasi chiave, come i plurali e i tempi verbali?"
 
@@ -2868,8 +2872,8 @@ msgstr "%1$sLunghezza dei paragrafi%2$s: tutti i paragrafi sono della giusta lun
 msgid "%1$sFlesch Reading Ease%2$s: The copy scores %3$s in the test, which is considered %4$s to read. %5$s%6$s%7$s"
 msgstr "%1$sFlesch Reading Ease%2$s: il contenuto ha un punteggio di %3$s nel test, che è considerato %4$s da leggere. %5$s%6$s%7$s"
 
-#: languages/wordpress-seojs.php:283 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:283 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Help on choosing the perfect focus keyphrase"
 msgstr "Aiuto nella scelta della frase chiave perfetta"
 
@@ -2904,10 +2908,10 @@ msgstr "ottimizza un singolo articolo per i sinonimi e le frasi chiave correlate
 msgid "Synonyms & related keyphrases"
 msgstr "Sinonimi e frasi chiave correlate."
 
-#: languages/wordpress-seojs.php:318 js/dist/block-editor-1740.js:55
-#: js/dist/block-editor-1740.js:59 js/dist/classic-editor-1740.js:55
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:55
-#: js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:318 js/dist/block-editor-1750.js:55
+#: js/dist/block-editor-1750.js:59 js/dist/classic-editor-1750.js:55
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:55
+#: js/dist/elementor-1750.js:59
 msgid "Add related keyphrase"
 msgstr "Aggiungi una frase chiave correlata"
 
@@ -2921,8 +2925,8 @@ msgid "%s is a required feature toggle argument."
 msgstr "%s è un argomento della funzionalità di attivazione obbligatorio."
 
 #: admin/views/sidebar.php:28 languages/wordpress-seojs.php:353
-#: js/dist/block-editor-1740.js:33 js/dist/classic-editor-1740.js:33
-#: js/dist/elementor-1740.js:33
+#: js/dist/block-editor-1750.js:33 js/dist/classic-editor-1750.js:33
+#: js/dist/elementor-1750.js:33
 msgid "Rank better with synonyms & related keyphrases"
 msgstr "Posizionati meglio con i sinonimi e le frasi chiave correlate"
 
@@ -2969,15 +2973,15 @@ msgstr "Cancella l'immagine"
 #: src/deprecated/admin/add-keyword-modal.php:47
 #: src/deprecated/admin/keyword-synonyms-modal.php:47
 #: src/deprecated/admin/multiple-keywords-modal.php:47
-#: js/dist/block-editor-1740.js:41 js/dist/block-editor-1740.js:51
-#: js/dist/block-editor-1740.js:53 js/dist/block-editor-1740.js:55
-#: js/dist/block-editor-1740.js:57 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:41 js/dist/classic-editor-1740.js:51
-#: js/dist/classic-editor-1740.js:53 js/dist/classic-editor-1740.js:55
-#: js/dist/classic-editor-1740.js:57 js/dist/classic-editor-1740.js:59
-#: js/dist/elementor-1740.js:41 js/dist/elementor-1740.js:51
-#: js/dist/elementor-1740.js:53 js/dist/elementor-1740.js:55
-#: js/dist/elementor-1740.js:57 js/dist/elementor-1740.js:59
+#: js/dist/block-editor-1750.js:41 js/dist/block-editor-1750.js:51
+#: js/dist/block-editor-1750.js:53 js/dist/block-editor-1750.js:55
+#: js/dist/block-editor-1750.js:57 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:41 js/dist/classic-editor-1750.js:51
+#: js/dist/classic-editor-1750.js:53 js/dist/classic-editor-1750.js:55
+#: js/dist/classic-editor-1750.js:57 js/dist/classic-editor-1750.js:59
+#: js/dist/elementor-1750.js:41 js/dist/elementor-1750.js:51
+#: js/dist/elementor-1750.js:53 js/dist/elementor-1750.js:55
+#: js/dist/elementor-1750.js:57 js/dist/elementor-1750.js:59
 msgid "Get %s"
 msgstr "Passa a %s"
 
@@ -2993,16 +2997,16 @@ msgid_plural "There are new notifications."
 msgstr[0] "C'è una nuova notifica. "
 msgstr[1] "Ci sono nuove notifiche. "
 
-#: languages/wordpress-seojs.php:303 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:303 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Learn more about the readability analysis"
 msgstr "Leggi di più sull'Analisi di leggibilità. "
 
-#: languages/wordpress-seojs.php:736 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:736 js/dist/structured-data-blocks-1750.js:1
 msgid "Describe the duration of the instruction:"
 msgstr "Descrivi la durata del processo indicato nelle istruzioni:"
 
-#: languages/wordpress-seojs.php:739 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:739 js/dist/structured-data-blocks-1750.js:1
 msgid "Optional. Customize how you want to describe the duration of the instruction"
 msgstr "Opzionale. Personalizza come vuoi descrivere la durata del processo indicato nelle istruzioni:"
 
@@ -3010,88 +3014,88 @@ msgstr "Opzionale. Personalizza come vuoi descrivere la durata del processo indi
 msgid "Colon"
 msgstr "Due punti"
 
-#: languages/wordpress-seojs.php:579 js/dist/block-editor-1740.js:83
+#: languages/wordpress-seojs.php:579 js/dist/block-editor-1750.js:83
 msgid "Readability analysis:"
 msgstr "Analisi di leggibilità:"
 
 #. translators: %s expands to a unit of time (e.g. 1 day).
-#: languages/wordpress-seojs.php:789 js/dist/structured-data-blocks-1740.js:5
-#: js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:789 js/dist/structured-data-blocks-1750.js:5
+#: js/dist/structured-data-blocks-1750.js:9
 msgid "%s, %s and %s"
 msgstr "%s, %s e %s"
 
 #. translators: %s expands to a unit of time (e.g. 1 day).
-#: languages/wordpress-seojs.php:784 js/dist/structured-data-blocks-1740.js:3
-#: js/dist/structured-data-blocks-1740.js:7
+#: languages/wordpress-seojs.php:784 js/dist/structured-data-blocks-1750.js:3
+#: js/dist/structured-data-blocks-1750.js:7
 msgid "%s and %s"
 msgstr "%s e %s"
 
-#: languages/wordpress-seojs.php:779 js/dist/structured-data-blocks-1740.js:1
-#: js/dist/structured-data-blocks-1740.js:5
+#: languages/wordpress-seojs.php:779 js/dist/structured-data-blocks-1750.js:1
+#: js/dist/structured-data-blocks-1750.js:5
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d minuto"
 msgstr[1] "%d minuti"
 
-#: languages/wordpress-seojs.php:775 js/dist/structured-data-blocks-1740.js:1
-#: js/dist/structured-data-blocks-1740.js:5
+#: languages/wordpress-seojs.php:775 js/dist/structured-data-blocks-1750.js:1
+#: js/dist/structured-data-blocks-1750.js:5
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d ora"
 msgstr[1] "%d ore"
 
-#: languages/wordpress-seojs.php:771 js/dist/structured-data-blocks-1740.js:1
-#: js/dist/structured-data-blocks-1740.js:5
+#: languages/wordpress-seojs.php:771 js/dist/structured-data-blocks-1750.js:1
+#: js/dist/structured-data-blocks-1750.js:5
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] "%d giorno"
 msgstr[1] "%d giorni"
 
 #: languages/wordpress-seojs.php:721 languages/yoast-components.php:92
-#: js/dist/externals/componentsNew-1740.js:3
-#: js/dist/externals/schemaBlocks-1740.js:10
-#: js/dist/externals/schemaBlocks-1740.js:13
-#: js/dist/structured-data-blocks-1740.js:1
+#: js/dist/externals/componentsNew-1750.js:3
+#: js/dist/externals/schemaBlocks-1750.js:10
+#: js/dist/externals/schemaBlocks-1750.js:13
+#: js/dist/structured-data-blocks-1750.js:1
 msgid "minutes"
 msgstr "minuti "
 
 #: languages/wordpress-seojs.php:718 languages/yoast-components.php:89
-#: js/dist/externals/componentsNew-1740.js:3
-#: js/dist/externals/schemaBlocks-1740.js:10
-#: js/dist/structured-data-blocks-1740.js:1
+#: js/dist/externals/componentsNew-1750.js:3
+#: js/dist/externals/schemaBlocks-1750.js:10
+#: js/dist/structured-data-blocks-1750.js:1
 msgid "hours"
 msgstr "ore"
 
-#: languages/wordpress-seojs.php:715 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:715 js/dist/structured-data-blocks-1750.js:1
 msgid "days"
 msgstr "giorni"
 
-#: languages/wordpress-seojs.php:691 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:691 js/dist/structured-data-blocks-1750.js:9
 msgid "Create a How-to guide in an SEO-friendly way. You can only use one How-to block per post."
 msgstr "Crea una guida How-to in una modalità SEO-friendly. Puoi usare solo un blocco How-to per articolo."
 
-#: languages/wordpress-seojs.php:643 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:643 js/dist/structured-data-blocks-1750.js:9
 msgid "List your Frequently Asked Questions in an SEO-friendly way. You can only use one FAQ block per post."
 msgstr "Elenca le tue FAQ (Frequently Asked Questions) in una modalità SEO-friendly. Puoi usare solo un blocco FAQ per articolo. "
 
-#: languages/wordpress-seojs.php:194 js/dist/post-edit-1740.js:5
+#: languages/wordpress-seojs.php:194 js/dist/post-edit-1750.js:5
 msgid "Copy error"
 msgstr "Copia l'errore "
 
-#: languages/wordpress-seojs.php:764 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:764 js/dist/structured-data-blocks-1750.js:1
 msgid "Enter a step title"
 msgstr "Inserisci un titolo del passaggio "
 
-#: languages/wordpress-seojs.php:730 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:730 js/dist/structured-data-blocks-1750.js:1
 msgid "CSS class(es) to apply to the steps"
 msgstr "Classe(i) CSS da applicare ai passaggi "
 
-#: languages/wordpress-seojs.php:733 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:733 js/dist/structured-data-blocks-1750.js:1
 msgid "Optional. This can give you better control over the styling of the steps."
 msgstr "Opzionale. Questo ti fornisce un controllo migliore dello stile dei passaggi. "
 
 #. translators: %s expands to Yoast SEO.
-#: languages/wordpress-seojs.php:191 js/dist/post-edit-1740.js:5
+#: languages/wordpress-seojs.php:191 js/dist/post-edit-1750.js:5
 msgid "An error occurred loading the %s primary taxonomy picker."
 msgstr "Si è verificato un errore durante il caricamento del selettore della tassonomia primaria %s. "
 
@@ -3100,19 +3104,19 @@ msgstr "Si è verificato un errore durante il caricamento del selettore della ta
 msgid "%1$s Structured Data Blocks"
 msgstr "Blocchi di Dati Strutturati di %1$s"
 
-#: languages/wordpress-seojs.php:669 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:669 js/dist/structured-data-blocks-1750.js:9
 msgid "Insert question"
 msgstr "Inserisci domanda"
 
-#: languages/wordpress-seojs.php:666 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:666 js/dist/structured-data-blocks-1750.js:9
 msgid "Delete question"
 msgstr "Elimina domanda"
 
-#: languages/wordpress-seojs.php:681 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:681 js/dist/structured-data-blocks-1750.js:9
 msgid "Enter the answer to the question"
 msgstr "Inserisci la risposta alla domanda"
 
-#: languages/wordpress-seojs.php:663 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:663 js/dist/structured-data-blocks-1750.js:9
 msgid "Add question"
 msgstr "Aggiungi domanda"
 
@@ -3131,13 +3135,13 @@ msgstr "Aggiungi domanda"
 #: src/deprecated/admin/add-keyword-modal.php:35
 #: src/deprecated/admin/keyword-synonyms-modal.php:35
 #: src/deprecated/admin/multiple-keywords-modal.php:35
-#: js/dist/block-editor-1740.js:43 js/dist/classic-editor-1740.js:43
-#: js/dist/elementor-1740.js:43
+#: js/dist/block-editor-1750.js:43 js/dist/classic-editor-1750.js:43
+#: js/dist/elementor-1750.js:43
 msgid "Great news: you can, with %s!"
 msgstr "Ottime notizie: puoi con %s!"
 
 #. translators: %s expands to the taxonomy name.
-#: languages/wordpress-seojs.php:198 js/dist/post-edit-1740.js:3
+#: languages/wordpress-seojs.php:198 js/dist/post-edit-1750.js:3
 msgid "Select the primary %s"
 msgstr "Seleziona il %s primario"
 
@@ -3145,20 +3149,20 @@ msgstr "Seleziona il %s primario"
 msgid "Check links to this URL"
 msgstr "Controlla i link a questo URL"
 
-#: languages/wordpress-seojs.php:675 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:675 js/dist/structured-data-blocks-1750.js:9
 msgid "Move question down"
 msgstr "Sposta la domanda in basso"
 
-#: languages/wordpress-seojs.php:672 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:672 js/dist/structured-data-blocks-1750.js:9
 msgid "Move question up"
 msgstr "Sposta la domanda in alto"
 
-#: languages/wordpress-seojs.php:678 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:678 js/dist/structured-data-blocks-1750.js:9
 msgid "Enter a question"
 msgstr "Inserisci una domanda"
 
-#: languages/wordpress-seojs.php:749 js/dist/structured-data-blocks-1740.js:1
-#: js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:749 js/dist/structured-data-blocks-1750.js:1
+#: js/dist/structured-data-blocks-1750.js:9
 msgid "Time needed:"
 msgstr "Tempo richiesto:"
 
@@ -3166,32 +3170,32 @@ msgstr "Tempo richiesto:"
 msgid "Keyword research training"
 msgstr "Keyword research training"
 
-#: languages/wordpress-seojs.php:649 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:649 js/dist/structured-data-blocks-1750.js:9
 msgid "Frequently Asked Questions"
 msgstr "Domande frequenti"
 
-#: languages/wordpress-seojs.php:207 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:207 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "(Opens in a new browser window)"
 msgstr "(Si apre in una nuova finestra del browser)"
 
-#: languages/wordpress-seojs.php:767 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:767 js/dist/structured-data-blocks-1750.js:1
 msgid "Enter a step description"
 msgstr "Inserisci una descrizione del passaggio"
 
-#: languages/wordpress-seojs.php:745 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:745 js/dist/structured-data-blocks-1750.js:1
 msgid "Enter a description"
 msgstr "Inserisci una descrizione"
 
-#: languages/wordpress-seojs.php:742 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:742 js/dist/structured-data-blocks-1750.js:1
 msgid "Unordered list"
 msgstr "Lista non ordinata"
 
-#: languages/wordpress-seojs.php:724 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:724 js/dist/structured-data-blocks-1750.js:1
 msgid "Delete total time"
 msgstr "Elimina il tempo totale"
 
-#: languages/wordpress-seojs.php:712 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:712 js/dist/structured-data-blocks-1750.js:1
 msgid "Add total time"
 msgstr "Aggiungi il tempo totale"
 
@@ -3231,38 +3235,38 @@ msgid "Site with ID %d not found."
 msgstr "Il sito web con l'ID %d non è stato trovato."
 
 #: languages/wordpress-seojs.php:119 languages/yoast-components.php:128
-#: js/dist/block-editor-1740.js:59 js/dist/classic-editor-1740.js:59
-#: js/dist/elementor-1740.js:59 js/dist/externals/components-1740.js:1
+#: js/dist/block-editor-1750.js:59 js/dist/classic-editor-1750.js:59
+#: js/dist/elementor-1750.js:59 js/dist/externals/components-1750.js:1
 msgid "Mark as cornerstone content"
 msgstr "Indica come contenuto centrale"
 
-#: languages/wordpress-seojs.php:116 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:116 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Learn more about Cornerstone Content."
 msgstr "Ulteriori informazioni sui contenuti Cornerstone."
 
-#: languages/wordpress-seojs.php:113 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:113 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Cornerstone content should be the most important and extensive articles on your site."
 msgstr "I contenuti Cornerstone (contenuti centrali) dovrebbero essere gli articoli più importanti ed esaustivi del tuo sito."
 
-#: languages/wordpress-seojs.php:709 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:709 js/dist/structured-data-blocks-1750.js:1
 msgid "Showing step items as an ordered list."
 msgstr "Mostra gli elementi del passaggio come un elenco ordinato."
 
-#: languages/wordpress-seojs.php:703 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:703 js/dist/structured-data-blocks-1750.js:1
 msgid "Add step"
 msgstr "Aggiungi un passaggio"
 
-#: languages/wordpress-seojs.php:706 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:706 js/dist/structured-data-blocks-1750.js:1
 msgid "Showing step items as an unordered list"
 msgstr "Mostra gli elementi del passaggio come un elenco non ordinato"
 
-#: languages/wordpress-seojs.php:697 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:697 js/dist/structured-data-blocks-1750.js:9
 msgid "How to"
 msgstr "How to"
 
-#: languages/wordpress-seojs.php:694 js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:694 js/dist/structured-data-blocks-1750.js:9
 msgid "How-to"
 msgstr "How-to"
 
@@ -3270,39 +3274,39 @@ msgstr "How-to"
 msgid "deleted"
 msgstr "eliminato"
 
-#: languages/wordpress-seojs.php:300 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:300 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Analysis results"
 msgstr "Risultati dell'analisi"
 
-#: languages/wordpress-seojs.php:685 js/dist/structured-data-blocks-1740.js:1
-#: js/dist/structured-data-blocks-1740.js:9
+#: languages/wordpress-seojs.php:685 js/dist/structured-data-blocks-1750.js:1
+#: js/dist/structured-data-blocks-1750.js:9
 msgid "Add image"
 msgstr "Aggiungi un'immagine"
 
-#: languages/wordpress-seojs.php:752 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:752 js/dist/structured-data-blocks-1750.js:1
 msgid "Delete step"
 msgstr "Elimina passaggio"
 
-#: languages/wordpress-seojs.php:761 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:761 js/dist/structured-data-blocks-1750.js:1
 msgid "Move step down"
 msgstr "Sposta passaggio in basso"
 
-#: languages/wordpress-seojs.php:758 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:758 js/dist/structured-data-blocks-1750.js:1
 msgid "Move step up"
 msgstr "Sposta passaggio in alto"
 
-#: languages/wordpress-seojs.php:755 js/dist/structured-data-blocks-1740.js:1
+#: languages/wordpress-seojs.php:755 js/dist/structured-data-blocks-1750.js:1
 msgid "Insert step"
 msgstr "Inserisci passaggio"
 
-#: languages/wordpress-seojs.php:289 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:289 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Are you trying to use multiple keyphrases? You should add them separately below."
 msgstr "Stai cercando di utilizzare più frasi chiave? Dovresti aggiungerle separatamente sotto."
 
-#: languages/wordpress-seojs.php:321 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:321 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Enter a focus keyphrase to calculate the SEO score"
 msgstr "Inserisci una frase chiave per calcolare il punteggio SEO"
 
@@ -3314,44 +3318,44 @@ msgstr "Vorresti aggiungere un'altra frase chiave?"
 msgid "image preview"
 msgstr "anteprima dell'immagine"
 
-#: languages/yoast-components.php:122 js/dist/externals/components-1740.js:3
+#: languages/yoast-components.php:122 js/dist/externals/components-1750.js:3
 msgid "Copied!"
 msgstr "Copiato!"
 
-#: languages/yoast-components.php:125 js/dist/externals/components-1740.js:3
+#: languages/yoast-components.php:125 js/dist/externals/components-1750.js:3
 msgid "Not supported!"
 msgstr "Non supportato!"
 
 #. translators: %s expands to the link value
-#: languages/yoast-components.php:105 js/dist/externals/components-1740.js:3
+#: languages/yoast-components.php:105 js/dist/externals/components-1750.js:3
 msgid "Copy link to suggested article: %s"
 msgstr "Copia il link all'articolo suggerito: %s"
 
-#: languages/yoast-components.php:55 js/dist/externals/componentsNew-1740.js:3
+#: languages/yoast-components.php:55 js/dist/externals/componentsNew-1750.js:3
 msgid "Read our %1$sultimate guide to keyword research%2$s to learn more about keyword research and keyword strategy."
 msgstr "Leggi la nostra %1$sUltimate guide to keyword research%2$s per ulteriori informazioni sulla ricerca e sulla strategia per le parole chiave."
 
-#: languages/yoast-components.php:101 js/dist/externals/components-1740.js:1
+#: languages/yoast-components.php:101 js/dist/externals/components-1750.js:1
 msgid "Copy link"
 msgstr "Copia il link"
 
-#: languages/yoast-components.php:119 js/dist/externals/components-1740.js:3
+#: languages/yoast-components.php:119 js/dist/externals/components-1750.js:3
 msgid "Consider linking to these articles:"
 msgstr "Prendi in considerazione di inserire il collegamento a questi articoli:"
 
-#: languages/yoast-components.php:116 js/dist/externals/components-1740.js:3
+#: languages/yoast-components.php:116 js/dist/externals/components-1750.js:3
 msgid "Consider linking to these {{a}}cornerstone articles:{{/a}}"
 msgstr "Prendi in considerazione di inserire il collegamento a questi {{a}}articoli cornerstone:{{/a}}"
 
-#: languages/yoast-components.php:61 js/dist/externals/componentsNew-1740.js:3
+#: languages/yoast-components.php:61 js/dist/externals/componentsNew-1750.js:3
 msgid "The following words occur the most in the content. These give an indication of what your content focuses on. If the words differ a lot from your topic, you might want to rewrite your content accordingly. "
 msgstr "Le seguenti parole sono quelle che ricorrono più spesso nel tuo testo. Tale analisi ti dà un'idea su cosa si concentra il tuo contenuto. Se le parole differiscono molto dal tuo argomento, dovresti riscrivere i tuoi contenuti in modo più coerente."
 
-#: languages/yoast-components.php:112 js/dist/externals/components-1740.js:3
+#: languages/yoast-components.php:112 js/dist/externals/components-1750.js:3
 msgid "{{a}}Read our article about site structure{{/a}} to learn more about how internal linking can help improve your SEO."
 msgstr "Leggi {{a}} il nostro articolo sulla struttura del sito {{/a}} per imparare di più su come i link interni possono aiutarti a migliorare la tua strategia SEO."
 
-#: languages/yoast-components.php:65 js/dist/externals/componentsNew-1740.js:3
+#: languages/yoast-components.php:65 js/dist/externals/componentsNew-1750.js:3
 msgid "Prominent words"
 msgstr "Parole importanti"
 
@@ -3364,15 +3368,15 @@ msgstr "Tagline (motto) del sito"
 msgid "Not all required fields are given. Missing field %1$s"
 msgstr "Non sono stati riempiti tutti i campi obbligatori. Manca il campo %1$s"
 
-#: languages/wordpress-seojs.php:327 js/dist/block-editor-1740.js:51
-#: js/dist/classic-editor-1740.js:51 js/dist/elementor-1740.js:51
+#: languages/wordpress-seojs.php:327 js/dist/block-editor-1750.js:51
+#: js/dist/classic-editor-1750.js:51 js/dist/elementor-1750.js:51
 msgid "Add synonyms"
 msgstr "Aggiungi sinonimi"
 
 #: languages/wordpress-seojs.php:330
 #: src/deprecated/admin/keyword-synonyms-modal.php:32
-#: js/dist/block-editor-1740.js:55 js/dist/classic-editor-1740.js:55
-#: js/dist/elementor-1740.js:55
+#: js/dist/block-editor-1750.js:55 js/dist/classic-editor-1750.js:55
+#: js/dist/elementor-1750.js:55
 msgid "Would you like to add keyphrase synonyms?"
 msgstr "Vuoi aggiungere dei sinonimi della frase chiave?"
 
@@ -3392,28 +3396,28 @@ msgid "You can edit the SEO meta-data for this custom type on the %1$sShop page%
 msgstr "Puoi modificare i meta-dati SEO pei questo tipo personalizzato sulla %1$spagina del Negozio%2$s."
 
 #: inc/class-wpseo-replace-vars.php:1456 languages/wordpress-seojs.php:792
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Current year"
 msgstr "Anno corrente"
 
-#: languages/yoast-components.php:32 js/dist/externals/componentsNew-1740.js:3
+#: languages/yoast-components.php:32 js/dist/externals/componentsNew-1750.js:3
 msgid "Something went wrong. Please reload the page."
 msgstr "Qualcosa non ha funzionato. Prova a ricaricare la pagina."
 
 #: languages/yoast-components.php:224
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Url preview"
 msgstr "Anteprima dell'URL"
 
 #: languages/yoast-components.php:221
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Please provide a meta description by editing the snippet below. If you don’t, Google will try to find a relevant part of your post to show in the search results."
 msgstr "Inserisci una descrizione meta editando lo snippet qui sotto. Se non lo fai, Google cercherà di indovinare dal tuo articolo cosa è rilevante per mostrarlo nei risultati di ricerca."
 
-#: languages/wordpress-seojs.php:801 js/dist/elementor-1740.js:27
-#: js/dist/post-edit-1740.js:1 js/dist/settings-1740.js:1
-#: js/dist/term-edit-1740.js:1
+#: languages/wordpress-seojs.php:801 js/dist/elementor-1750.js:27
+#: js/dist/post-edit-1750.js:1 js/dist/settings-1750.js:1
+#: js/dist/term-edit-1750.js:1
 msgid "Page"
 msgstr "Pagina"
 
@@ -3430,20 +3434,20 @@ msgid "(custom field)"
 msgstr "(campo personalizzato)"
 
 #: inc/class-wpseo-replace-vars.php:1482 languages/wordpress-seojs.php:798
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "ID"
 msgstr "ID"
 
 #: inc/class-wpseo-replace-vars.php:1454 languages/wordpress-seojs.php:828
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Separator"
 msgstr "Separatore"
 
 #: inc/class-wpseo-replace-vars.php:1446 languages/wordpress-seojs.php:813
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Category"
 msgstr "Categoria"
 
@@ -3452,8 +3456,8 @@ msgid "Tag"
 msgstr "Tag"
 
 #: inc/class-wpseo-replace-vars.php:1437 languages/wordpress-seojs.php:795
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Date"
 msgstr "Data"
 
@@ -3462,8 +3466,8 @@ msgid "Modified"
 msgstr "Modificato"
 
 #: inc/class-wpseo-replace-vars.php:1452 languages/wordpress-seojs.php:804
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Search phrase"
 msgstr "Frase di ricerca"
 
@@ -3475,20 +3479,20 @@ msgid "You just deleted a %1$s."
 msgstr "Hai appena eliminato %1$s."
 
 #: inc/class-wpseo-replace-vars.php:1441 languages/wordpress-seojs.php:810
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Site title"
 msgstr "Titolo del sito"
 
 #: inc/class-wpseo-replace-vars.php:1447 languages/wordpress-seojs.php:825
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Primary category"
 msgstr "Categoria primaria"
 
 #: inc/class-wpseo-replace-vars.php:1439 languages/wordpress-seojs.php:819
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Parent title"
 msgstr "Titolo genitore"
 
@@ -3505,14 +3509,14 @@ msgid "Term title"
 msgstr "Titolo del termine"
 
 #: inc/class-wpseo-replace-vars.php:1450 languages/wordpress-seojs.php:840
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Term description"
 msgstr "Descrizione del termine"
 
 #: inc/class-wpseo-replace-vars.php:1442 languages/wordpress-seojs.php:807
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Tagline"
 msgstr "Motto del sito"
 
@@ -3525,8 +3529,8 @@ msgid "Page number"
 msgstr "Numero di pagina"
 
 #: inc/class-wpseo-replace-vars.php:1443 languages/wordpress-seojs.php:822
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Excerpt"
 msgstr "Riassunto"
 
@@ -3549,8 +3553,8 @@ msgid "Search engines and other websites can still send traffic to your deleted 
 msgstr "I motori di ricerca e altri siti web possono ancora inviare il traffico all'articolo eliminato."
 
 #: inc/class-wpseo-replace-vars.php:1449 languages/wordpress-seojs.php:837
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Tag description"
 msgstr "Descrizione del tag"
 
@@ -3559,8 +3563,8 @@ msgid "Get Yoast SEO Premium"
 msgstr "Passa a Yoast SEO Premium"
 
 #: inc/class-wpseo-replace-vars.php:1448 languages/wordpress-seojs.php:834
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Category description"
 msgstr "Descrizione della categoria"
 
@@ -3593,19 +3597,19 @@ msgid "Post type (singular)"
 msgstr "Post type (singolare)"
 
 #: inc/class-wpseo-replace-vars.php:1444 languages/wordpress-seojs.php:831
-#: js/dist/elementor-1740.js:27 js/dist/post-edit-1740.js:1
-#: js/dist/settings-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/elementor-1750.js:27 js/dist/post-edit-1750.js:1
+#: js/dist/settings-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Excerpt only"
 msgstr "Solo riassunto"
 
 #: languages/wordpress-seojs.php:261 languages/yoast-components.php:183
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
-#: js/dist/settings-1740.js:6
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
+#: js/dist/settings-1750.js:6
 msgid "Modify your meta description by editing it right here"
 msgstr "Modifica la tua descrizione meta scrivendola qui"
 
 #. Translators: %s expands to the actual language.
-#: languages/yoast-components.php:40 js/dist/externals/componentsNew-1740.js:6
+#: languages/yoast-components.php:40 js/dist/externals/componentsNew-1750.js:6
 msgid "Your site language is set to %s. If this is not correct, contact your site administrator."
 msgstr "La lingua del tuo sito è impostata su %s. Se non è corretto, contatta l'amministratore del sito."
 
@@ -3615,7 +3619,7 @@ msgstr "La lingua del tuo sito è impostata su %s. Se non è corretto, contatta 
 msgid "%1$s respects your privacy. Read our %2$sprivacy policy%3$s on how we handle your personal information."
 msgstr "%1$s rispetta la tua privacy. Leggi la nostra %2$sprivacy policy%3$s per sapere come vengono gestite le tue informazioni personali."
 
-#: languages/yoast-components.php:46 js/dist/externals/componentsNew-1740.js:6
+#: languages/yoast-components.php:46 js/dist/externals/componentsNew-1750.js:6
 msgid "Dismiss this notice"
 msgstr "Ignora questo avviso"
 
@@ -3755,10 +3759,10 @@ msgid "Get real-time suggestions for internal links"
 msgstr "Ottieni in tempo reale suggerimenti per i link interni"
 
 #: admin/class-premium-upsell-admin-block.php:58 admin/views/sidebar.php:37
-#: languages/wordpress-seojs.php:371 js/dist/block-editor-1740.js:37
-#: js/dist/block-editor-1740.js:47 js/dist/classic-editor-1740.js:37
-#: js/dist/classic-editor-1740.js:47 js/dist/elementor-1740.js:37
-#: js/dist/elementor-1740.js:47
+#: languages/wordpress-seojs.php:371 js/dist/block-editor-1750.js:37
+#: js/dist/block-editor-1750.js:47 js/dist/classic-editor-1750.js:37
+#: js/dist/classic-editor-1750.js:47 js/dist/elementor-1750.js:37
+#: js/dist/elementor-1750.js:47
 msgid "24/7 email support"
 msgstr "Supporto 24/7 via email"
 
@@ -3937,7 +3941,7 @@ msgstr "Leggi di più sulla verifica con i Webmaster Tools"
 #: admin/views/tabs/metas/paper-content/author-archive-settings.php:13
 #: admin/views/tabs/metas/paper-content/date-archives-settings.php:13
 #: admin/views/tabs/metas/paper-content/taxonomy-content.php:19
-#: languages/yoast-components.php:49 js/dist/externals/componentsNew-1740.js:6
+#: languages/yoast-components.php:49 js/dist/externals/componentsNew-1750.js:6
 msgid "On"
 msgstr "On"
 
@@ -3948,7 +3952,7 @@ msgstr "On"
 #: admin/views/tabs/metas/paper-content/author-archive-settings.php:14
 #: admin/views/tabs/metas/paper-content/date-archives-settings.php:14
 #: admin/views/tabs/metas/paper-content/taxonomy-content.php:19
-#: languages/yoast-components.php:52 js/dist/externals/componentsNew-1740.js:6
+#: languages/yoast-components.php:52 js/dist/externals/componentsNew-1750.js:6
 msgid "Off"
 msgstr "Off"
 
@@ -3997,10 +4001,10 @@ msgstr "La mancata visualizzazione di %1$s nei risultati di ricerca significa te
 #. in plural form
 #. Translators: %s translates to the "yes" or "no" ,%s translates to the Post
 #. Label in plural form
-#: languages/wordpress-seojs.php:83 js/dist/block-editor-1740.js:65
-#: js/dist/block-editor-1740.js:67 js/dist/classic-editor-1740.js:65
-#: js/dist/classic-editor-1740.js:67 js/dist/elementor-1740.js:65
-#: js/dist/elementor-1740.js:67
+#: languages/wordpress-seojs.php:83 js/dist/block-editor-1750.js:65
+#: js/dist/block-editor-1750.js:67 js/dist/classic-editor-1750.js:65
+#: js/dist/classic-editor-1750.js:67 js/dist/elementor-1750.js:65
+#: js/dist/elementor-1750.js:67
 msgid "%s (current default for %s)"
 msgstr "%s (impostazione corrente predefinita per %s)"
 
@@ -4016,8 +4020,8 @@ msgstr "I motori di ricerca dovrebbero seguire i link per questo %1$s?"
 #. translators: %s expands to the post type name.
 #. Translators: %s translates to the Post Label in singular form
 #: admin/metabox/class-metabox.php:176 languages/wordpress-seojs.php:90
-#: js/dist/block-editor-1740.js:69 js/dist/classic-editor-1740.js:69
-#: js/dist/elementor-1740.js:69
+#: js/dist/block-editor-1750.js:69 js/dist/classic-editor-1750.js:69
+#: js/dist/elementor-1750.js:69
 msgid "Allow search engines to show this %s in search results?"
 msgstr "Consenti ai motori di ricerca di mostrare %s nei risultati delle ricerche?"
 
@@ -4065,8 +4069,8 @@ msgid "Enable this feature if you want Twitter to display a preview with images 
 msgstr "Abilita questa funzione se vuoi che Twitter mostri un'anteprima con le immagini ed un riassunto del testo quando un link del tuo sito viene condiviso."
 
 #: admin/views/class-yoast-feature-toggles.php:74
-#: languages/wordpress-seojs.php:324 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:324 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "SEO analysis"
 msgstr "Analisi SEO"
 
@@ -4075,7 +4079,7 @@ msgid "The text link counter helps you improve your site structure."
 msgstr "Il contatore di link nel testo ti aiuta a migliorare la struttura del tuo sito."
 
 #: admin/formatter/class-metabox-formatter.php:192
-#: languages/yoast-components.php:20 js/dist/externals/analysisReport-1740.js:1
+#: languages/yoast-components.php:20 js/dist/externals/analysisReport-1750.js:1
 msgid "Good results"
 msgstr "Risultati buoni"
 
@@ -4150,26 +4154,26 @@ msgid "Latest blog posts on %1$s"
 msgstr "Post recenti sul blog %1$s"
 
 #: admin/formatter/class-metabox-formatter.php:194
-#: languages/yoast-components.php:8 js/dist/externals/analysisReport-1740.js:1
+#: languages/yoast-components.php:8 js/dist/externals/analysisReport-1750.js:1
 msgid "Remove highlight from the text"
 msgstr "Rimuovi l'evidenziazione nel testo"
 
 #: admin/formatter/class-metabox-formatter.php:193
-#: languages/yoast-components.php:11 js/dist/externals/analysisReport-1740.js:1
+#: languages/yoast-components.php:11 js/dist/externals/analysisReport-1750.js:1
 msgid "Highlight this result in the text"
 msgstr "Evidenzia questo risultato nel testo"
 
 #: admin/formatter/class-metabox-formatter.php:191
-#: languages/yoast-components.php:17 js/dist/externals/analysisReport-1740.js:1
+#: languages/yoast-components.php:17 js/dist/externals/analysisReport-1750.js:1
 msgid "Considerations"
 msgstr "Considerazioni"
 
 #: admin/formatter/class-metabox-formatter.php:188
-#: languages/yoast-components.php:23 js/dist/externals/analysisReport-1740.js:1
+#: languages/yoast-components.php:23 js/dist/externals/analysisReport-1750.js:1
 msgid "Errors"
 msgstr "Errori"
 
-#: languages/yoast-components.php:43 js/dist/externals/componentsNew-1740.js:6
+#: languages/yoast-components.php:43 js/dist/externals/componentsNew-1750.js:6
 msgid "Change language"
 msgstr "Cambia lingua"
 
@@ -4184,7 +4188,7 @@ msgid "First-time SEO configuration"
 msgstr "Configurazione SEO iniziale"
 
 #. Translators: %s expands to the actual language.
-#: languages/yoast-components.php:36 js/dist/externals/componentsNew-1740.js:4
+#: languages/yoast-components.php:36 js/dist/externals/componentsNew-1750.js:4
 msgid "Your site language is set to %s. "
 msgstr "La lingua del tuo sito è impostata su %s."
 
@@ -4249,8 +4253,8 @@ msgstr "Hai fatto!"
 #: src/deprecated/admin/keyword-synonyms-modal.php:51
 #: src/deprecated/admin/multiple-keywords-modal.php:51
 #: src/presenters/admin/help-link-presenter.php:75
-#: js/dist/block-editor-1740.js:83 js/dist/externals/componentsNew-1740.js:1
-#: js/dist/externals/helpers-1740.js:1
+#: js/dist/block-editor-1750.js:83 js/dist/externals/componentsNew-1750.js:1
+#: js/dist/externals/helpers-1750.js:1
 msgid "(Opens in a new browser tab)"
 msgstr "(Si apre in una nuova scheda del browser)"
 
@@ -4416,21 +4420,21 @@ msgstr "Punteggio di leggibilità"
 #: src/deprecated/admin/add-keyword-modal.php:41
 #: src/deprecated/admin/keyword-synonyms-modal.php:41
 #: src/deprecated/admin/multiple-keywords-modal.php:41
-#: js/dist/block-editor-1740.js:39 js/dist/block-editor-1740.js:49
-#: js/dist/classic-editor-1740.js:39 js/dist/classic-editor-1740.js:49
-#: js/dist/elementor-1740.js:39 js/dist/elementor-1740.js:49
+#: js/dist/block-editor-1750.js:39 js/dist/block-editor-1750.js:49
+#: js/dist/classic-editor-1750.js:39 js/dist/classic-editor-1750.js:49
+#: js/dist/elementor-1750.js:39 js/dist/elementor-1750.js:49
 msgid "Other benefits of %s for you:"
 msgstr "Altri benefici da %s per te:"
 
 #: languages/yoast-components.php:201 languages/yoast-seo-js.php:466
-#: js/dist/externals/searchMetadataPreviews-1740.js:1
+#: js/dist/externals/searchMetadataPreviews-1750.js:1
 msgid "Scroll to see the preview content."
 msgstr "Scorri per vedere l'anteprima del contenuto."
 
 #: admin/filters/class-cornerstone-filter.php:87
 #: admin/views/class-yoast-feature-toggles.php:90
-#: languages/wordpress-seojs.php:110 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:110 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Cornerstone content"
 msgstr "Contenuto Cornerstone (contenuto centrale)"
 
@@ -4468,17 +4472,17 @@ msgid "The configuration wizard helps you to easily configure your site to have 
 msgstr "La procedura guidata di configurazione ti aiuta a configurare facilmente il tuo sito per avere impostazioni SEO ottimali."
 
 #: admin/class-premium-upsell-admin-block.php:56
-#: languages/wordpress-seojs.php:362 js/dist/block-editor-1740.js:35
-#: js/dist/block-editor-1740.js:45 js/dist/classic-editor-1740.js:35
-#: js/dist/classic-editor-1740.js:45 js/dist/elementor-1740.js:35
-#: js/dist/elementor-1740.js:45
+#: languages/wordpress-seojs.php:362 js/dist/block-editor-1750.js:35
+#: js/dist/block-editor-1750.js:45 js/dist/classic-editor-1750.js:35
+#: js/dist/classic-editor-1750.js:45 js/dist/elementor-1750.js:35
+#: js/dist/elementor-1750.js:45
 msgid "Superfast internal linking suggestions"
 msgstr "Suggerimenti super veloci di link interni"
 
 #. translators: %1$s expands to a 'Yoast SEO Premium' text linked to the
 #. yoast.com website.
-#: languages/wordpress-seojs.php:350 js/dist/block-editor-1740.js:33
-#: js/dist/classic-editor-1740.js:33 js/dist/elementor-1740.js:33
+#: languages/wordpress-seojs.php:350 js/dist/block-editor-1750.js:33
+#: js/dist/classic-editor-1750.js:33 js/dist/elementor-1750.js:33
 msgid "Great news: you can, with %1$s!"
 msgstr "Novità importante: puoi con %1$s! "
 
@@ -4488,19 +4492,19 @@ msgstr "Salva le modifiche"
 
 #. translators: %1$s expands to a 'strong' start tag, %2$s to a 'strong' end
 #. tag.
-#: languages/wordpress-seojs.php:358 js/dist/block-editor-1740.js:35
-#: js/dist/block-editor-1740.js:45 js/dist/classic-editor-1740.js:35
-#: js/dist/classic-editor-1740.js:45 js/dist/elementor-1740.js:35
-#: js/dist/elementor-1740.js:45
+#: languages/wordpress-seojs.php:358 js/dist/block-editor-1750.js:35
+#: js/dist/block-editor-1750.js:45 js/dist/classic-editor-1750.js:35
+#: js/dist/classic-editor-1750.js:45 js/dist/elementor-1750.js:35
+#: js/dist/elementor-1750.js:45
 msgid "%1$sNo more dead links%2$s: easy redirect manager"
 msgstr "%1$sNiente più link non funzionanti%2$s: easy redirect manager"
 
 #. translators: %1$s expands to a 'strong' start tag, %2$s to a 'strong' end
 #. tag.
-#: languages/wordpress-seojs.php:367 js/dist/block-editor-1740.js:37
-#: js/dist/block-editor-1740.js:47 js/dist/classic-editor-1740.js:37
-#: js/dist/classic-editor-1740.js:47 js/dist/elementor-1740.js:37
-#: js/dist/elementor-1740.js:47
+#: languages/wordpress-seojs.php:367 js/dist/block-editor-1750.js:37
+#: js/dist/block-editor-1750.js:47 js/dist/classic-editor-1750.js:37
+#: js/dist/classic-editor-1750.js:47 js/dist/elementor-1750.js:37
+#: js/dist/elementor-1750.js:47
 msgid "%1$sSocial media preview%2$s: Facebook & Twitter"
 msgstr "%1$sAnteprima dei social media%2$s: Facebook & Twitter"
 
@@ -4517,17 +4521,17 @@ msgstr "Il plugin %2$s modifica l'aspetto del tuo sito differenziando il contenu
 #: src/deprecated/admin/add-keyword-modal.php:50
 #: src/deprecated/admin/keyword-synonyms-modal.php:50
 #: src/deprecated/admin/multiple-keywords-modal.php:50
-#: js/dist/block-editor-1740.js:41 js/dist/block-editor-1740.js:51
-#: js/dist/classic-editor-1740.js:41 js/dist/classic-editor-1740.js:51
-#: js/dist/elementor-1740.js:41 js/dist/elementor-1740.js:51
+#: js/dist/block-editor-1750.js:41 js/dist/block-editor-1750.js:51
+#: js/dist/classic-editor-1750.js:41 js/dist/classic-editor-1750.js:51
+#: js/dist/elementor-1750.js:41 js/dist/elementor-1750.js:51
 msgid "1 year free support and updates included!"
 msgstr "1 anno di aggiornamenti e supporto personalizzato inclusi!"
 
 #: admin/class-premium-upsell-admin-block.php:59 admin/views/sidebar.php:38
-#: languages/wordpress-seojs.php:375 js/dist/block-editor-1740.js:37
-#: js/dist/block-editor-1740.js:47 js/dist/classic-editor-1740.js:37
-#: js/dist/classic-editor-1740.js:47 js/dist/elementor-1740.js:37
-#: js/dist/elementor-1740.js:47
+#: languages/wordpress-seojs.php:375 js/dist/block-editor-1750.js:37
+#: js/dist/block-editor-1750.js:47 js/dist/classic-editor-1750.js:37
+#: js/dist/classic-editor-1750.js:47 js/dist/elementor-1750.js:37
+#: js/dist/elementor-1750.js:47
 msgid "No ads!"
 msgstr "Nessuna pubblicità!"
 
@@ -4585,7 +4589,7 @@ msgid "%1$s of the words contain %2$sover %3$s syllables%4$s, which is less than
 msgstr "%1$s parole contengono %2$s oltre %3$s sillabe%4$s, che è meno o uguale al massimo raccomandato di %5$s."
 
 #: languages/yoast-components.php:147
-#: js/dist/externals/configurationWizard-1740.js:1
+#: js/dist/externals/configurationWizard-1750.js:1
 msgid "Step %1$d: %2$s"
 msgstr "Passo %1$d: %2$s"
 
@@ -4624,7 +4628,7 @@ msgid "Desktop preview"
 msgstr "Anteprima in modalità desktop"
 
 #: languages/yoast-components.php:233 languages/yoast-seo-js.php:454
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Meta description preview:"
 msgstr "Anteprima della meta descrizione:"
 
@@ -4641,28 +4645,28 @@ msgid "SEO title preview:"
 msgstr "Anteprima titolo SEO:"
 
 #: languages/wordpress-seojs.php:5 languages/yoast-seo-js.php:22
-#: js/dist/block-editor-1740.js:1 js/dist/classic-editor-1740.js:1
-#: js/dist/editor-modules-1740.js:15 js/dist/elementor-1740.js:1
-#: js/dist/post-edit-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/block-editor-1750.js:1 js/dist/classic-editor-1750.js:1
+#: js/dist/editor-modules-1750.js:15 js/dist/elementor-1750.js:1
+#: js/dist/post-edit-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Feedback"
 msgstr "Feedback"
 
 #: languages/yoast-components.php:195 languages/yoast-seo-js.php:436
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Slug"
 msgstr "Slug"
 
 #: languages/wordpress-seojs.php:18 languages/yoast-seo-js.php:41
-#: js/dist/block-editor-1740.js:1 js/dist/classic-editor-1740.js:1
-#: js/dist/editor-modules-1740.js:15 js/dist/elementor-1740.js:1
-#: js/dist/post-edit-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/block-editor-1750.js:1 js/dist/classic-editor-1750.js:1
+#: js/dist/editor-modules-1750.js:15 js/dist/elementor-1750.js:1
+#: js/dist/post-edit-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Good SEO score"
 msgstr "Punteggio SEO Buono"
 
 #: languages/wordpress-seojs.php:12 languages/yoast-seo-js.php:34
-#: js/dist/block-editor-1740.js:1 js/dist/classic-editor-1740.js:1
-#: js/dist/editor-modules-1740.js:15 js/dist/elementor-1740.js:1
-#: js/dist/post-edit-1740.js:1 js/dist/term-edit-1740.js:1
+#: js/dist/block-editor-1750.js:1 js/dist/classic-editor-1750.js:1
+#: js/dist/editor-modules-1750.js:15 js/dist/elementor-1750.js:1
+#: js/dist/post-edit-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "OK SEO score"
 msgstr "Punteggio SEO Ok"
 
@@ -4671,7 +4675,7 @@ msgid "Slug preview:"
 msgstr "Anteprima dello slug:"
 
 #: languages/yoast-components.php:186 languages/yoast-seo-js.php:442
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Close snippet editor"
 msgstr "Chiudi editor snippet"
 
@@ -4681,14 +4685,14 @@ msgstr "Rimuovi l'evidenziazione nel testo"
 
 #: admin/formatter/class-metabox-formatter.php:195
 #: languages/yoast-components.php:5 languages/yoast-seo-js.php:421
-#: js/dist/externals/analysisReport-1740.js:1
+#: js/dist/externals/analysisReport-1750.js:1
 msgid "Marks are disabled in current view"
 msgstr "L'evidenziazione è disabilitata"
 
 #. Translators: {{link}} resolves to the link opening tag to yoa.st/bugreport,
 #. {{/link}} resolves to the link closing tag.
 #: languages/yoast-components.php:131
-#: js/dist/externals/configurationWizard-1740.js:3
+#: js/dist/externals/configurationWizard-1750.js:3
 msgid "A problem occurred when saving the current step, {{link}}please file a bug report{{/link}} describing what step you are on and which changes you want to make (if any)."
 msgstr "Si è verificato un problema nel salvataggio di questo passaggio, {{link}}compila una segnalazione{{/link}} descrivendo in quale passaggio ti trovavi e quali modifiche volevi effettuare (se ne stavi facendo qualcuna)."
 
@@ -4705,12 +4709,12 @@ msgid "Export settings"
 msgstr "Esporta le impostazioni"
 
 #: languages/yoast-components.php:189 languages/yoast-seo-js.php:430
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Edit snippet"
 msgstr "Modifica snippet"
 
 #: inc/class-wpseo-replace-vars.php:1483 languages/wordpress-seojs.php:274
-#: js/dist/settings-1740.js:6
+#: js/dist/settings-1750.js:6
 msgid "Name"
 msgstr "Nome"
 
@@ -4727,8 +4731,8 @@ msgid "Sign Up!"
 msgstr "Iscriviti!"
 
 #: languages/wordpress-seojs.php:540 languages/yoast-seo-js.php:472
-#: js/dist/block-editor-1740.js:71 js/dist/classic-editor-1740.js:71
-#: js/dist/elementor-1740.js:71
+#: js/dist/block-editor-1750.js:71 js/dist/classic-editor-1750.js:71
+#: js/dist/elementor-1750.js:71
 msgid "Please provide a meta description by editing the snippet below."
 msgstr "Inserisci una meta descrizione modificando lo snippet sottostante."
 
@@ -4738,12 +4742,12 @@ msgstr "Puoi fare clic su ogni elemento nell'anteprima per passare all'editor de
 
 #: admin/config-ui/class-configuration-page.php:142
 #: languages/yoast-components.php:134
-#: js/dist/externals/configurationWizard-1740.js:3
+#: js/dist/externals/configurationWizard-1750.js:3
 msgid "Close the Wizard"
 msgstr "Chiudi la procedura guidata"
 
 #: languages/yoast-components.php:230
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "SEO title preview"
 msgstr "Anteprima del titolo SEO"
 
@@ -4801,7 +4805,7 @@ msgstr "Menu della barra di amministrazione"
 
 #. Translators: %s expands to "Yoast SEO for WordPress".
 #: languages/yoast-components.php:144
-#: js/dist/externals/configurationWizard-1740.js:5
+#: js/dist/externals/configurationWizard-1750.js:5
 msgid "%s installation wizard"
 msgstr "Procedura di installazione guidata %s"
 
@@ -4818,17 +4822,21 @@ msgstr "Funzionalità"
 
 #: admin/metabox/class-metabox.php:172 languages/yoast-components.php:192
 #: languages/yoast-seo-js.php:433
-#: js/dist/externals/replacementVariableEditor-1740.js:1
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/replacementVariableEditor-1750.js:1
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "SEO title"
 msgstr "Titolo SEO"
+
+#: inc/options/class-wpseo-option-titles.php:985
+msgid "Vertical bar"
+msgstr "Barra verticale"
 
 #: admin/config-ui/fields/class-field-choice-post-type.php:35
 #: admin/config-ui/fields/class-field-multiple-authors.php:24
 #: admin/metabox/class-metabox.php:183 admin/metabox/class-metabox.php:188
 #: admin/views/tabs/metas/paper-content/media-content.php:20
-#: languages/wordpress-seojs.php:76 js/dist/block-editor-1740.js:63
-#: js/dist/classic-editor-1740.js:63 js/dist/elementor-1740.js:63
+#: languages/wordpress-seojs.php:76 js/dist/block-editor-1750.js:63
+#: js/dist/classic-editor-1750.js:63 js/dist/elementor-1750.js:63
 msgid "No"
 msgstr "No"
 
@@ -4836,9 +4844,9 @@ msgstr "No"
 #: admin/config-ui/fields/class-field-multiple-authors.php:23
 #: admin/metabox/class-metabox.php:182 admin/metabox/class-metabox.php:187
 #: admin/views/tabs/metas/paper-content/media-content.php:19
-#: languages/wordpress-seojs.php:79 js/dist/block-editor-1740.js:63
-#: js/dist/classic-editor-1740.js:63 js/dist/elementor-1740.js:63
-#: js/dist/externals/schemaBlocks-1740.js:13
+#: languages/wordpress-seojs.php:79 js/dist/block-editor-1750.js:63
+#: js/dist/classic-editor-1750.js:63 js/dist/elementor-1750.js:63
+#: js/dist/externals/schemaBlocks-1750.js:13
 msgid "Yes"
 msgstr "Si"
 
@@ -4890,11 +4898,15 @@ msgstr "trattino em"
 msgid "En dash"
 msgstr "trattino en"
 
-#: inc/options/class-wpseo-option-titles.php:993
+#: inc/options/class-wpseo-option-titles.php:1001
 msgid "Less than sign"
 msgstr "Simboli di minore"
 
-#: inc/options/class-wpseo-option-titles.php:997
+#: inc/options/class-wpseo-option-titles.php:989
+msgid "Small tilde"
+msgstr "Tilde piccola"
+
+#: inc/options/class-wpseo-option-titles.php:1005
 msgid "Greater than sign"
 msgstr "Simbolo di maggiore"
 
@@ -4908,11 +4920,11 @@ msgstr "L'opzione Yoast %1$s non è stata trovata."
 msgid "Title settings"
 msgstr "Impostazioni del Titolo"
 
-#: inc/options/class-wpseo-option-titles.php:989
+#: inc/options/class-wpseo-option-titles.php:997
 msgid "Right angle quotation mark"
 msgstr "Virgoletta bassa destra"
 
-#: inc/options/class-wpseo-option-titles.php:985
+#: inc/options/class-wpseo-option-titles.php:993
 msgid "Left angle quotation mark"
 msgstr "Virgoletta bassa sinistra"
 
@@ -4920,7 +4932,7 @@ msgstr "Virgoletta bassa sinistra"
 msgid "Success!"
 msgstr "Fine!"
 
-#: languages/wordpress-seojs.php:267 js/dist/configuration-wizard-1740.js:1
+#: languages/wordpress-seojs.php:267 js/dist/configuration-wizard-1750.js:1
 msgid "The name of the person"
 msgstr "Il nome della persona"
 
@@ -5093,7 +5105,7 @@ msgid_plural "%s notifications"
 msgstr[0] "%s notifica"
 msgstr[1] "%s notifiche"
 
-#: languages/wordpress-seojs.php:29 js/dist/addon-installation-1740.js:5
+#: languages/wordpress-seojs.php:29 js/dist/addon-installation-1750.js:5
 msgid "Cancel"
 msgstr "Annulla"
 
@@ -5119,8 +5131,8 @@ msgid "Readability"
 msgstr "Leggibilità"
 
 #: admin/views/class-yoast-feature-toggles.php:82
-#: languages/wordpress-seojs.php:306 js/dist/block-editor-1740.js:59
-#: js/dist/classic-editor-1740.js:59 js/dist/elementor-1740.js:59
+#: languages/wordpress-seojs.php:306 js/dist/block-editor-1750.js:59
+#: js/dist/classic-editor-1750.js:59 js/dist/elementor-1750.js:59
 msgid "Readability analysis"
 msgstr "Analisi leggibilità"
 
@@ -5133,10 +5145,10 @@ msgstr "Disabilita l'analisi della leggibilità"
 #: admin/statistics/class-statistics-service.php:217
 #: inc/class-wpseo-rank.php:140 inc/class-wpseo-rank.php:163
 #: inc/class-wpseo-rank.php:195 languages/wordpress-seojs.php:9
-#: languages/yoast-seo-js.php:30 js/dist/block-editor-1740.js:1
-#: js/dist/block-editor-1740.js:83 js/dist/classic-editor-1740.js:1
-#: js/dist/editor-modules-1740.js:15 js/dist/elementor-1740.js:1
-#: js/dist/post-edit-1740.js:1 js/dist/term-edit-1740.js:1
+#: languages/yoast-seo-js.php:30 js/dist/block-editor-1750.js:1
+#: js/dist/block-editor-1750.js:83 js/dist/classic-editor-1750.js:1
+#: js/dist/editor-modules-1750.js:15 js/dist/elementor-1750.js:1
+#: js/dist/post-edit-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Needs improvement"
 msgstr "Da migliorare"
 
@@ -5151,17 +5163,17 @@ msgstr "Non disponibile"
 
 #: admin/formatter/class-metabox-formatter.php:189
 #: admin/views/partial-notifications-errors.php:20
-#: languages/yoast-components.php:26 js/dist/externals/analysisReport-1740.js:1
+#: languages/yoast-components.php:26 js/dist/externals/analysisReport-1750.js:1
 msgid "Problems"
 msgstr "Problemi"
 
 #: admin/formatter/class-metabox-formatter.php:190
-#: languages/yoast-components.php:14 js/dist/externals/analysisReport-1740.js:1
+#: languages/yoast-components.php:14 js/dist/externals/analysisReport-1750.js:1
 msgid "Improvements"
 msgstr "Miglioramenti"
 
-#: languages/wordpress-seojs.php:482 js/dist/block-editor-1740.js:51
-#: js/dist/classic-editor-1740.js:51 js/dist/elementor-1740.js:51
+#: languages/wordpress-seojs.php:482 js/dist/block-editor-1750.js:51
+#: js/dist/classic-editor-1750.js:51 js/dist/elementor-1750.js:51
 msgid "Open"
 msgstr "Apri"
 
@@ -5174,7 +5186,7 @@ msgid "Filter by SEO Score"
 msgstr "Filtra per punteggio SEO"
 
 #: admin/formatter/class-metabox-formatter.php:166
-#: js/dist/externals/schemaBlocks-1740.js:9
+#: js/dist/externals/schemaBlocks-1750.js:9
 msgid "Analysis"
 msgstr "Analisi"
 
@@ -5329,7 +5341,7 @@ msgstr "Pinterest Rich Pins Validator"
 
 #. translators: %s expands to the name of a post type (plural).
 #. translators: %s expands to the name of a post type (plural).
-#: inc/class-upgrade.php:1219 inc/options/class-wpseo-option-titles.php:283
+#: inc/class-upgrade.php:1206 inc/options/class-wpseo-option-titles.php:283
 msgid "%s Archive"
 msgstr "Archivi %s"
 
@@ -5421,7 +5433,7 @@ msgstr "Questo deve essere un blog esistente. Il blog %s non esiste o è stato s
 #: languages/wordpress-seojs.php:585
 #: src/integrations/third-party/elementor.php:185
 #: src/integrations/third-party/elementor.php:203
-#: js/dist/block-editor-1740.js:83
+#: js/dist/block-editor-1750.js:83
 msgid "Yoast SEO"
 msgstr "Yoast SEO"
 
@@ -5453,10 +5465,10 @@ msgstr "%s non sembra essere una string di verifica valida %s. Correggi e riprov
 #: admin/statistics/class-statistics-service.php:227
 #: inc/class-wpseo-rank.php:142 inc/class-wpseo-rank.php:173
 #: inc/class-wpseo-rank.php:205 languages/wordpress-seojs.php:22
-#: languages/yoast-seo-js.php:44 js/dist/block-editor-1740.js:1
-#: js/dist/block-editor-1740.js:83 js/dist/classic-editor-1740.js:1
-#: js/dist/editor-modules-1740.js:15 js/dist/elementor-1740.js:1
-#: js/dist/post-edit-1740.js:1 js/dist/term-edit-1740.js:1
+#: languages/yoast-seo-js.php:44 js/dist/block-editor-1750.js:1
+#: js/dist/block-editor-1750.js:83 js/dist/classic-editor-1750.js:1
+#: js/dist/editor-modules-1750.js:15 js/dist/elementor-1750.js:1
+#: js/dist/post-edit-1750.js:1 js/dist/term-edit-1750.js:1
 msgid "Good"
 msgstr "Buona"
 
@@ -5515,7 +5527,7 @@ msgstr "%1$s viene fornito con alcuni strumenti integrati molto potenti:"
 #. translators: %s expands to the variable used for term title.
 #. translators: %s expands to the variable used for term title.
 #: admin/formatter/class-term-metabox-formatter.php:163
-#: inc/class-upgrade.php:1222 inc/options/class-wpseo-option-titles.php:319
+#: inc/class-upgrade.php:1209 inc/options/class-wpseo-option-titles.php:319
 msgid "%s Archives"
 msgstr "%s Archivi"
 
@@ -6019,9 +6031,9 @@ msgid "These pages will be %s by default, so they will never show up in search r
 msgstr "Queste pagine saranno %s di default, quindi non appariranno mai nei risultati delle ricerche."
 
 #: admin/views/tool-bulk-editor.php:109 inc/class-wpseo-replace-vars.php:1438
-#: languages/wordpress-seojs.php:816 js/dist/elementor-1740.js:27
-#: js/dist/post-edit-1740.js:1 js/dist/settings-1740.js:1
-#: js/dist/term-edit-1740.js:1
+#: languages/wordpress-seojs.php:816 js/dist/elementor-1750.js:27
+#: js/dist/post-edit-1750.js:1 js/dist/settings-1750.js:1
+#: js/dist/term-edit-1750.js:1
 msgid "Title"
 msgstr "Titolo"
 
@@ -6156,9 +6168,9 @@ msgstr "Archivi"
 
 #: admin/google_search_console/views/gsc-redirect-nopremium.php:27
 #: languages/wordpress-seojs.php:485 languages/yoast-components.php:68
-#: js/dist/block-editor-1740.js:51 js/dist/classic-editor-1740.js:51
-#: js/dist/elementor-1740.js:51 js/dist/externals/componentsNew-1740.js:1
-#: js/dist/externals/configurationWizard-1740.js:3
+#: js/dist/block-editor-1750.js:51 js/dist/classic-editor-1750.js:51
+#: js/dist/elementor-1750.js:51 js/dist/externals/componentsNew-1750.js:1
+#: js/dist/externals/configurationWizard-1750.js:3
 msgid "Close"
 msgstr "Chiudi"
 
@@ -6172,7 +6184,7 @@ msgid "Email"
 msgstr "Email"
 
 #: admin/pages/social.php:19 languages/wordpress-seojs.php:175
-#: js/dist/block-editor-1740.js:83
+#: js/dist/block-editor-1750.js:83
 msgid "Facebook"
 msgstr "Facebook"
 
@@ -6181,7 +6193,7 @@ msgid "Meta Desc."
 msgstr "Desc. meta"
 
 #: languages/yoast-components.php:140
-#: js/dist/externals/configurationWizard-1740.js:3
+#: js/dist/externals/configurationWizard-1750.js:3
 msgid "Next"
 msgstr "Successivo"
 
@@ -6190,10 +6202,10 @@ msgstr "Successivo"
 #: admin/statistics/class-statistics-service.php:222
 #: inc/class-wpseo-rank.php:141 inc/class-wpseo-rank.php:168
 #: inc/class-wpseo-rank.php:200 languages/wordpress-seojs.php:15
-#: languages/yoast-seo-js.php:37 js/dist/block-editor-1740.js:1
-#: js/dist/classic-editor-1740.js:1 js/dist/editor-modules-1740.js:15
-#: js/dist/elementor-1740.js:1 js/dist/post-edit-1740.js:1
-#: js/dist/term-edit-1740.js:1
+#: languages/yoast-seo-js.php:37 js/dist/block-editor-1750.js:1
+#: js/dist/classic-editor-1750.js:1 js/dist/editor-modules-1750.js:15
+#: js/dist/elementor-1750.js:1 js/dist/post-edit-1750.js:1
+#: js/dist/term-edit-1750.js:1
 msgid "OK"
 msgstr "OK"
 
@@ -6202,12 +6214,12 @@ msgid "Pinterest"
 msgstr "Pinterest"
 
 #: languages/yoast-components.php:137
-#: js/dist/externals/configurationWizard-1740.js:3
+#: js/dist/externals/configurationWizard-1750.js:3
 msgid "Previous"
 msgstr "Precedente"
 
 #: admin/pages/social.php:20 languages/wordpress-seojs.php:178
-#: js/dist/block-editor-1740.js:83
+#: js/dist/block-editor-1750.js:83
 msgid "Twitter"
 msgstr "Twitter"
 
@@ -6294,14 +6306,14 @@ msgid_plural "Trash <span class=\"count\">(%s)</span>"
 msgstr[0] "Cestinato <span class=\"count\">(%s)</span>"
 msgstr[1] "Cestinati <span class=\"count\">(%s)</span>"
 
-#: languages/wordpress-seojs.php:340 js/dist/block-editor-1740.js:83
-#: js/dist/classic-editor-1740.js:83 js/dist/elementor-1740.js:81
+#: languages/wordpress-seojs.php:340 js/dist/block-editor-1750.js:83
+#: js/dist/classic-editor-1750.js:83 js/dist/elementor-1750.js:81
 msgid "Advanced"
 msgstr "Avanzate"
 
 #: admin/metabox/class-metabox.php:190 languages/wordpress-seojs.php:49
-#: js/dist/block-editor-1740.js:71 js/dist/classic-editor-1740.js:71
-#: js/dist/elementor-1740.js:71
+#: js/dist/block-editor-1750.js:71 js/dist/classic-editor-1750.js:71
+#: js/dist/elementor-1750.js:71
 msgid "Meta robots advanced"
 msgstr "Meta Robots avanzate"
 
@@ -6359,7 +6371,7 @@ msgid "Extensions"
 msgstr "Estensioni"
 
 #: admin/class-admin.php:230 languages/wordpress-seojs.php:646
-#: js/dist/structured-data-blocks-1740.js:9
+#: js/dist/structured-data-blocks-1750.js:9
 msgid "FAQ"
 msgstr "FAQ"
 
@@ -6383,8 +6395,8 @@ msgstr "Grande problema SEO: stai bloccando l'accesso ai robot."
 
 #: admin/metabox/class-metabox.php:173 languages/yoast-components.php:198
 #: languages/yoast-seo-js.php:439
-#: js/dist/externals/replacementVariableEditor-1740.js:1
-#: js/dist/externals/searchMetadataPreviews-1740.js:2
+#: js/dist/externals/replacementVariableEditor-1750.js:1
+#: js/dist/externals/searchMetadataPreviews-1750.js:2
 msgid "Meta description"
 msgstr "Meta descrizione"
 
@@ -6452,7 +6464,7 @@ msgstr "Data di pubblicazione"
 #: inc/class-wpseo-admin-bar-menu.php:481 inc/health-check.php:173
 #: languages/wordpress-seojs.php:653
 #: src/presenters/meta-description-presenter.php:36
-#: js/dist/structured-data-blocks-1740.js:9
+#: js/dist/structured-data-blocks-1750.js:9
 msgid "SEO"
 msgstr "SEO"
 
@@ -6465,7 +6477,7 @@ msgid "Search Console"
 msgstr "Console di ricerca"
 
 #: admin/class-admin.php:225 languages/wordpress-seojs.php:727
-#: js/dist/structured-data-blocks-1740.js:1
+#: js/dist/structured-data-blocks-1750.js:1
 msgid "Settings"
 msgstr "Impostazioni"
 
@@ -6523,14 +6535,14 @@ msgid "You have used HTML in your value which is not allowed."
 msgstr "Non è consentito utilizzare HTML."
 
 #: admin/metabox/class-metabox.php:192 languages/wordpress-seojs.php:52
-#: js/dist/block-editor-1740.js:71 js/dist/classic-editor-1740.js:71
-#: js/dist/elementor-1740.js:71
+#: js/dist/block-editor-1750.js:71 js/dist/classic-editor-1750.js:71
+#: js/dist/elementor-1750.js:71
 msgid "No Image Index"
 msgstr "Nessuna immagine indice"
 
 #: admin/metabox/class-metabox.php:193 languages/wordpress-seojs.php:55
-#: js/dist/block-editor-1740.js:71 js/dist/classic-editor-1740.js:71
-#: js/dist/elementor-1740.js:71
+#: js/dist/block-editor-1750.js:71 js/dist/classic-editor-1750.js:71
+#: js/dist/elementor-1750.js:71
 msgid "No Archive"
 msgstr "Nessun Archivio"
 
@@ -6556,20 +6568,20 @@ msgid "Page URL/Slug"
 msgstr "URL/Slug pagina"
 
 #: admin/metabox/class-metabox.php:194 languages/wordpress-seojs.php:58
-#: js/dist/block-editor-1740.js:71 js/dist/classic-editor-1740.js:71
-#: js/dist/elementor-1740.js:71
+#: js/dist/block-editor-1750.js:71 js/dist/classic-editor-1750.js:71
+#: js/dist/elementor-1750.js:71
 msgid "No Snippet"
 msgstr "Nessuno snippet"
 
 #: admin/metabox/class-metabox.php:196 languages/wordpress-seojs.php:64
-#: js/dist/block-editor-1740.js:71 js/dist/classic-editor-1740.js:71
-#: js/dist/elementor-1740.js:71
+#: js/dist/block-editor-1750.js:71 js/dist/classic-editor-1750.js:71
+#: js/dist/elementor-1750.js:71
 msgid "Breadcrumbs Title"
 msgstr "Titolo dei breadcrumbs"
 
 #: admin/metabox/class-metabox.php:199 languages/wordpress-seojs.php:70
-#: js/dist/block-editor-1740.js:71 js/dist/classic-editor-1740.js:71
-#: js/dist/elementor-1740.js:71
+#: js/dist/block-editor-1750.js:71 js/dist/classic-editor-1750.js:71
+#: js/dist/elementor-1750.js:71
 msgid "Canonical URL"
 msgstr "URL canonico"
 

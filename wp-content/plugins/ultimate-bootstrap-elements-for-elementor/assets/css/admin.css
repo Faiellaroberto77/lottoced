@@ -284,6 +284,7 @@
 }
 .ube-admin-box-theme > a {
   margin-right: 20px;
+  flex: 0 0 80px;
 }
 .ube-admin-box-theme h5 {
   margin: 5px 0;

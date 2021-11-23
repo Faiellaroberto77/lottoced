@@ -17,7 +17,7 @@ class UBE_Element_Chart extends UBE_Abstracts_Elements {
 	}
 
 	public function get_ube_icon() {
-		return 'fas fa-chart-bar';
+		return 'eicon-skill-bar';
 	}
 
 	public function get_ube_keywords() {
