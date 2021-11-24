@@ -14,7 +14,7 @@
 				adminBarHeight = $adminBar.outerHeight();
 			}
 		}
-		var offset = 300 + adminBarHeight;
+		var offset = 50 + adminBarHeight;
 		$body.scrollspy({
 			target: '#ube-main-nav',
 			offset: offset
@@ -40,6 +40,12 @@
 
 		$window.on('scroll', function (e) {
 			e.preventDefault();
+			var $active_element = $nav.find('.nav-link.active');
+			if ($active_element.length < 1) {
+				$nav.hide();
+			} else {
+				$nav.show();
+			}
 			var $first_section = $(ids[0]);
 			var last_section = $(ids[ids.length - 1]);
 			if ($first_section.position().top > $(document).scrollTop() && ($first_section.position().top + $first_section.outerHeight()) > $(document).scrollTop()) {

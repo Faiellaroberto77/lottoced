@@ -171,7 +171,7 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
     text-align: left;
 }
 
-.evidenzia_lotto {
+.lotto .evidenzia {
     color: var(--danger);
     font-weight: 700;
     box-shadow: .1rem .3rem .3rem rgba(0,0,0,1)!important;

@@ -2,6 +2,7 @@
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	opacity: .3;
+
 	&:hover {
 		-webkit-filter: grayscale(0);
 		filter: grayscale(0);
@@ -13,6 +14,7 @@
 .ube-client-logo-hover-faded {
 	opacity: .3;
 }
+
 .ube-client-logo-hover-faded:hover,
 .ube-client-logo-hover-opacity {
 	opacity: 1;
@@ -22,4 +24,8 @@
 .ube-client-logo-hover-opacity,
 .ube-client-logo-hover-grayscale {
 	@include transition(all .3s linear);
+}
+
+.ube-client-logo .ube-slider-item > a {
+	display: inline-block;
 }

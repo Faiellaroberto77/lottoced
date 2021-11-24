@@ -56,7 +56,7 @@ function fnc_estrazione_lotto(){
 				$active = "";
 			}?>
     
-        <div class="row mb-3">
+        <div class="row lotto">
         <div class="border-call-out w-100">
             <h2 class="titolo">Estrazione del Lotto e Simbolotto</h2>
         </div>

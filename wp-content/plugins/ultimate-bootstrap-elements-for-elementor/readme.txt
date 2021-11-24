@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: elementor, elementor addons, elementor widget, element
 Requires at least: 4.7
 Tested up to: 5.8
-Stable tag: 1.1.6
+Stable tag: 1.1.7
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -13,7 +13,7 @@ Completely plugins Ultimate Bootstrap Elements for Elementor. Enhance your Eleme
 
 == Description ==
 
-[Main Site](https://ube.g5plus.net?utm_source=wp&utm_medium=ube_description&utm_content=website_introduction) | [Premium Theme](https://ube.g5plus.net/premium-themes?utm_source=wp&utm_medium=ube_description_premium_theme_menu&utm_content=view_demo_furnitor)
+[Main Site](https://ube.g5plus.net?utm_source=wp&utm_medium=ube_description&utm_content=website_introduction) | [Premium Theme](https://ube.g5plus.net/premium-themes?utm_source=wp&utm_medium=ube_description_premium_theme_menu&utm_content=click_premeum_link)
 
 Ultimate Bootstrap Elements is one of the Best Elementor Addons. It has 63+ free widgets to create any sites with ease.
 
@@ -62,7 +62,7 @@ We have designed 63+ of the most useful widgets to enhance your Elementor Page B
 37. [Testimonial](https://ube.g5plus.net/testimonial/) - Show your clients feedback, recommendations on your sites with a perfect testimonial Elementor addon. Like our other Elementor addons, testimonial addon have various customizable options like layout, wrapper content style, description, title separator, client etc. [Video guide](https://www.youtube.com/watch?v=6ZpFT8HldsQ&list=PL_DzVbdOfv7Hdngvni6rxLC0XQa3-B38T)
 38. [Tour](https://ube.g5plus.net/tour/) - Tour Widget for Elementor page builder will enable you to show your texts divided into vertical tabs with the title. You can customize your tour as per your requirement using our Elementor tab addon. [Video guide](https://www.youtube.com/watch?v=h4IjLi3MgbY&list=PL_DzVbdOfv7Hdngvni6rxLC0XQa3-B38T)
 39. [Video Popup](https://ube.g5plus.net/video-popup/) - Video Popup Widget allows you to build video popup on your elementor website. [Video guide](https://www.youtube.com/watch?v=MReKm6WsRjM&list=PL_DzVbdOfv7Hdngvni6rxLC0XQa3-B38T)
-40. [Bullet One Page Scroll Navigation](#) - This widget allow to build navigation bullet one page scroll.
+40. [Bullet One Page Scroll Navigation](https://ube.g5plus.net/bullet-one-page-scroll-navigation/) - This widget allow to build navigation bullet one page scroll.
 
 #### Post Widgets
 1. [Post List](https://ube.g5plus.net/post-list/) Showcase your blog posts in a well-formatted list.
@@ -102,6 +102,10 @@ Do follow to install plugins:
 3. Go to menu UBE Elements screen to configure the plugin
 
 == Changelog ==
+
+= 1.1.7 =
+* Update: Client Logo Widget style
+* Update: Welcome page information
 
 = 1.1.6 =
 * Fix: Missing icon in responsive control

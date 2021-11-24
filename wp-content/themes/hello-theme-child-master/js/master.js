@@ -18,10 +18,10 @@
 				// number_selected = a.split();
 				jQuery.each(jQuery(".num"), function (b, c) {
 							if (jQuery(this).text() == number_selected) {
-								if (jQuery(this).attr("class").search("evidenzia_lotto") > -1){
-										jQuery(this).removeClass("evidenzia_lotto" );
+								if (jQuery(this).attr("class").search("evidenzia") > -1){
+										jQuery(this).removeClass("evidenzia" );
 									} else {
-										jQuery(this).addClass("evidenzia_lotto" );
+										jQuery(this).addClass("evidenzia" );
 									}
 							}
              

@@ -54,6 +54,27 @@ if (!defined('ABSPATH')) {
 				</div>
 			</div>
 		</div>
+		<div class="ube-admin-col ube-admin-col-12 ube-admin-d-flex">
+			<div class="ube-admin-box">
+				<div class="ube-admin-box-content">
+					<div class="ube-admin-box-theme">
+						<a target="_blank" href="https://themeforest.net/item/glowing-beauty-cosmetics-shop-theme/34903284?utm_source=wp&utm_medium=ube_welcome&utm_content=click_logo">
+							<img src="<?php echo esc_url(ube_get_plugin_url('assets/images/glowing-logo.png')) ?>" alt="<?php echo esc_attr__('Glowing – Beauty & Cosmetics Shop Theme', 'ube') ?>">
+						</a>
+						<div>
+							<h5>
+								<a target="_blank" href="https://themeforest.net/item/glowing-beauty-cosmetics-shop-theme/34903284&utm_source=wp&utm_medium=ube_welcome&utm_content=click_title"><?php echo esc_html__('Glowing – Beauty & Cosmetics Shop Theme', 'ube') ?></a>
+							</h5>
+							<p><?php echo esc_html__('Glowing is a cosmetics and beauty WooCommerce store WordPress theme built with WPBakery & Elementor – the world’s leading page builder. Glowing offers users 10+ stunning homepages, 7+ modern shop layouts, and 5+ product detail layouts, making it an excellent theme that can meet different demands for the store’s appearance.', 'ube') ?></p>
+							<p>
+								<a target="_blank" href="https://glowing.g5plus.net/main/" class="button button-small button-secondary"><?php echo esc_html__('View Demo', 'ube') ?></a>
+								<a target="_blank" href="https://themeforest.net/item/glowing-beauty-cosmetics-shop-theme/34903284&utm_source=wp&utm_medium=ube_welcome&utm_content=buy_now_furnitor" class="button button-small button-primary"><?php echo esc_html__('Buy Now', 'ube') ?></a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="ube-admin-col ube-admin-col-6 ube-admin-d-flex">
 			<div class="ube-admin-box">
 				<div class="ube-admin-box-content">
@@ -80,7 +101,7 @@ if (!defined('ABSPATH')) {
 				<div class="ube-admin-box-content">
 					<div class="ube-admin-box-theme">
 						<a target="_blank" href="https://themeforest.net/item/homeid-real-estate-wordpress-theme/30203159?utm_source=wp&utm_medium=ube_welcome&utm_content=click_logo">
-							<img src="<?php echo esc_url(ube_get_plugin_url('assets/images/homeid-logo.png')) ?>" alt="<?php echo esc_attr__('Furnitor – Minimalism Furniture Store WordPress Theme', 'ube') ?>">
+							<img src="<?php echo esc_url(ube_get_plugin_url('assets/images/homeid-logo.png')) ?>" alt="<?php echo esc_attr__('HomeID - Real Estate WordPress Theme', 'ube') ?>">
 						</a>
 						<div>
 							<h5>

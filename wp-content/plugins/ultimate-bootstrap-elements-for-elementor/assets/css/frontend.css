@@ -2797,6 +2797,10 @@ a.text-dark:hover, a.text-dark:focus {
   transition: all 0.3s linear;
 }
 
+.ube-client-logo .ube-slider-item > a {
+  display: inline-block;
+}
+
 .breadcrumbs .breadcrumb-item {
   display: -ms-flexbox;
   display: flex;
