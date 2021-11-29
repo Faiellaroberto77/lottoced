@@ -1,8 +1,9 @@
 <?php
 /*
 SHORTCODE
-Lotto
+-------------------- Lotto ------------------
 [estrazione_lotto]
+[estrazione_10elotto_serale]
 */
 
 function check_numero($num, $lotteria = "") {
@@ -24,6 +25,5 @@ function check_numero($num, $lotteria = "") {
 	}
 	return $num;
 }
-
 require_once("tb_estrazioni_lotto.php");
 ?>
