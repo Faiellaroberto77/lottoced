@@ -152,33 +152,6 @@ function fnc_estrazione_10elotto_serale()
 
     global $wpdb;
     $estrazione = $wpdb->get_results("SELECT EsData, diecielotto, extra FROM lc_es_lotto order by esdata desc limit $numero_estrazione;");
-    if ($solo_tab == 1) {
-    ?>
-        <ul class="nav nav-tabs" role="tablist">'
-            <?php
-            $rowcont = 1;
-            foreach ($estrazione as $rows) {
-                $es_data = $rows->EsData;
-                $originalDate = $es_data;
-                $newDate = date("d.m.Y", strtotime($originalDate));
-
-                if ($rowcont == 1) {
-            ?>
-                    <li role=\"presentation\" class=\"active\"><a href=\"#est10lotto$rowcont\" aria-controls=\"est10lotto$rowcont\" role=\"tab\" data-toggle=\"tab\"><?php echo $newDate ?></a></li>
-                <?php
-                } else {
-                ?>
-                    <li role=\"presentation\"><a href=\"#est10lotto$rowcont\" aria-controls=\"est10lotto$rowcont\" role=\"tab\" data-toggle=\"tab\"><?php echo $newDate ?></a></li>
-            <?php
-                }
-                $rowcont = $rowcont + 1;
-            }
-
-            ?>
-        </ul>
-    <?php
-    }
-
     $conta = 0;
     if ($solo_estrazioni == 1) {
     ?><div class="tab-content"><?php
@@ -197,8 +170,7 @@ function fnc_estrazione_10elotto_serale()
                                         $active = "";
                                     }
                                 ?>
-                <div role="tabpanel" class="tab-pane' . $active . '" id="est10lotto'<?php echo $conta ?>'">
-                    <div class="row">
+                    <div class="row _10elottos">
                         <div class="border-call-out">
                             <h2 class="titolo row">Estrazione 10 e lotto serale</h2>
                         </div>
@@ -229,7 +201,7 @@ function fnc_estrazione_10elotto_serale()
                             </tr>
                         </table>
                     </div>
-                </div>
+                
             <?php
                                 }
             ?>
