@@ -147,7 +147,7 @@ function fnc_estrazione_10elotto_serale()
     if (isset($_GET['group'])) {
         $group = $_GET['group'];
     } else {
-        $group = 4;
+        $group = 5;
     }
 
     global $wpdb;
@@ -159,6 +159,7 @@ function fnc_estrazione_10elotto_serale()
                                     $conta = $conta + 1;
                                     $es_data = $rows->EsData;
                                     $estrazi = $rows->diecielotto;
+                                    $e_extra = explode (",", $rows->extra);
                                     $arrE = explode(",", $estrazi);
                                     $originalDate = $es_data;
                                     setlocale(LC_TIME, 'it_IT');
@@ -192,13 +193,34 @@ function fnc_estrazione_10elotto_serale()
 
                             ?></tr><?php
                                     $cold = intval($group) / 2;
-
                                     $arrE[21] = check_numero($arrE[21]);
                                     $arrE[22] = check_numero($arrE[22]);
                                 ?>
                             <td colspan="<?php echo $cold ?>" class="middle oro">numero oro: <?php echo $arrE[21] ?></td>
                             <td colspan="<?php echo $cold ?>" class="middle oro">doppio oro: <?php echo $arrE[22] ?></td>
                             </tr>
+                            <tr>
+                                <td colspan="<?php echo $group?>">
+                                <div>Extra</div>
+                                </td>
+                            </tr>
+                            <?php 
+                            $conta = 0;
+                            $out = '';
+                            $out .= '<tr>';
+                            foreach ($e_extra as $rows_e)
+                            {
+                                if ($conta == $group){$out .='</tr><tr>'; $conta =0;}
+                                $out .= '<td>';
+                                $conta +=1;
+                                
+                                $out .= check_numero($rows_e);
+                                
+                                $out .= '</td>';
+                            }
+                            $out .= '</tr>';
+                            echo $out;
+                            ?>
                         </table>
                     </div>
                 
